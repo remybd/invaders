@@ -1,0 +1,2375 @@
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Space Invaders</name>
+    <description>Color guide: Green = seen, Red = dead, Orange: not checked yet... Yellow: reactivated... Squares are recent visits (2017 onwards)&lt;br&gt;&lt;br&gt;star = dead, circle = visited, black = dead and visited, blue = ok&lt;br&gt;&lt;br&gt;</description>
+    <Style id="icon-503-009D57-normal">
+      <IconStyle>
+        <color>ff579d00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels" />
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-009D57-highlight">
+      <IconStyle>
+        <color>ff579d00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels" />
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-009D57">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-009D57-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-009D57-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-F4B400-normal">
+      <IconStyle>
+        <color>ff00b4f4</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels" />
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-F4B400-highlight">
+      <IconStyle>
+        <color>ff00b4f4</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels" />
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-F4B400">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-F4B400-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-F4B400-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-F4EB37-normal">
+      <IconStyle>
+        <color>ff37ebf4</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels" />
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-F4EB37-highlight">
+      <IconStyle>
+        <color>ff37ebf4</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels" />
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-F4EB37">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-F4EB37-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-F4EB37-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-F4EB37-nodesc-normal">
+      <IconStyle>
+        <color>ff37ebf4</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels" />
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-503-F4EB37-nodesc-highlight">
+      <IconStyle>
+        <color>ff37ebf4</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels" />
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-503-F4EB37-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-F4EB37-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-F4EB37-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-F8971B-normal">
+      <IconStyle>
+        <color>ff1b97f8</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels" />
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-F8971B-highlight">
+      <IconStyle>
+        <color>ff1b97f8</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels" />
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-F8971B">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-F8971B-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-F8971B-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-F8971B-nodesc-normal">
+      <IconStyle>
+        <color>ff1b97f8</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels" />
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-503-F8971B-nodesc-highlight">
+      <IconStyle>
+        <color>ff1b97f8</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels" />
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-503-F8971B-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-F8971B-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-F8971B-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-F9F7A6-normal">
+      <IconStyle>
+        <color>ffa6f7f9</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels" />
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-F9F7A6-highlight">
+      <IconStyle>
+        <color>ffa6f7f9</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels" />
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-F9F7A6">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-F9F7A6-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-F9F7A6-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-959-000000-normal">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/959-wht-circle-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-959-000000-highlight">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/959-wht-circle-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-959-000000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-959-000000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-959-000000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-959-3F5BA9-normal">
+      <IconStyle>
+        <color>ffa95b3f</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/959-wht-circle-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-959-3F5BA9-highlight">
+      <IconStyle>
+        <color>ffa95b3f</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/959-wht-circle-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-959-3F5BA9">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-959-3F5BA9-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-959-3F5BA9-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-959-3F5BA9-nodesc-normal">
+      <IconStyle>
+        <color>ffa95b3f</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/959-wht-circle-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-959-3F5BA9-nodesc-highlight">
+      <IconStyle>
+        <color>ffa95b3f</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/959-wht-circle-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-959-3F5BA9-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-959-3F5BA9-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-959-3F5BA9-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-960-000000-normal">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-960-000000-highlight">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-960-000000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-960-000000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-960-000000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-960-000000-nodesc-normal">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-960-000000-nodesc-highlight">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-960-000000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-960-000000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-960-000000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-960-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-960-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-960-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-960-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-960-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-960-DB4436-nodesc-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-960-DB4436-nodesc-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-960-DB4436-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-960-DB4436-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-960-DB4436-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-961-009D57-normal">
+      <IconStyle>
+        <color>ff579d00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/961-wht-square-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-961-009D57-highlight">
+      <IconStyle>
+        <color>ff579d00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/961-wht-square-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-961-009D57">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-961-009D57-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-961-009D57-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-961-F4EB37-normal">
+      <IconStyle>
+        <color>ff37ebf4</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/961-wht-square-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-961-F4EB37-highlight">
+      <IconStyle>
+        <color>ff37ebf4</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/961-wht-square-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-961-F4EB37">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-961-F4EB37-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-961-F4EB37-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-961-F8971B-normal">
+      <IconStyle>
+        <color>ff1b97f8</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/961-wht-square-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-961-F8971B-highlight">
+      <IconStyle>
+        <color>ff1b97f8</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/961-wht-square-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-961-F8971B">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-961-F8971B-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-961-F8971B-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-962-009D57-normal">
+      <IconStyle>
+        <color>ff579d00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/962-wht-diamond-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-962-009D57-highlight">
+      <IconStyle>
+        <color>ff579d00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/962-wht-diamond-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-962-009D57">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-962-009D57-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-962-009D57-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder><name>icon-503-009D57</name><Placemark>
+        <name>PA-106 : Charlemagne 1 &amp; St Paul</name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/proxy/pwnvHkOy1YTdXqwRvd7hntgA6Wwdn1ryGFXyvKtds2a8su60IEfFfnTyUE2uVWy7Bd1GFYdkwklmVnB8N1zNGZuP3li2cA-8GvEzE_Jomt4nq-Q4jCZmVaz8avuGCGNPnli4RKUEE4Dn-B9F1rqhVgfaG6qC_4_4DU41W3VfGn8GkzeG8WnkWxgLNKk7" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=880</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/pwnvHkOy1YTdXqwRvd7hntgA6Wwdn1ryGFXyvKtds2a8su60IEfFfnTyUE2uVWy7Bd1GFYdkwklmVnB8N1zNGZuP3li2cA-8GvEzE_Jomt4nq-Q4jCZmVaz8avuGCGNPnli4RKUEE4Dn-B9F1rqhVgfaG6qC_4_4DU41W3VfGn8GkzeG8WnkWxgLNKk7</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.36199599999998,48.853915,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-376 : Poitou 28 &amp; Saintonge</name>
+        <description>&lt;img src="https://lh4.googleusercontent.com/proxy/SXdkjYVyd-BPsYWCAOM7vjySHP3mMj6bG3szCiNsu0SFjTsYVWpjxkaAIw984p44HxxqsYF6IX3mw9Ob1OebjABG2wY50XPYSMPRz0SgdvXiCv3KPt5MpQ8kO1v5dJ7Oi4_xQ6mbwmCdaQEwWfcDwQ89Ljwu3D_lQzCbGlXngqBZVRBsgT6WJs2udQ" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=100 ou http://www.lespetitesrenault.fr/sigt/75003/75003.htm&lt;br&gt;&lt;br&gt;&lt;img src="https://lh4.googleusercontent.com/proxy/ePen8422fShS4a1rkPoFN-Mit4AFPEpYrSPNf2xMwgz97NZahB_uz3595oq9ML0EskNkRsRDfU_j1LfG8w5hTxCDZ4y9JnTu" height="200" width="auto" /&gt;</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/SXdkjYVyd-BPsYWCAOM7vjySHP3mMj6bG3szCiNsu0SFjTsYVWpjxkaAIw984p44HxxqsYF6IX3mw9Ob1OebjABG2wY50XPYSMPRz0SgdvXiCv3KPt5MpQ8kO1v5dJ7Oi4_xQ6mbwmCdaQEwWfcDwQ89Ljwu3D_lQzCbGlXngqBZVRBsgT6WJs2udQ https://lh4.googleusercontent.com/proxy/ePen8422fShS4a1rkPoFN-Mit4AFPEpYrSPNf2xMwgz97NZahB_uz3595oq9ML0EskNkRsRDfU_j1LfG8w5hTxCDZ4y9JnTu</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.362393,48.861653,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA_420 : 47 rue Anselme, St Ouen
+</name>
+        <description>&lt;img src="https://lh4.googleusercontent.com/proxy/N0rmhC7FVVvkpOqYLI-TGR-gXa-WhnHv3UdEpsjVtHpzRkxsek1bGJjrsdtTa54iXbHhIA8HbfN883z-1j_9jgF1Hl6kQNhnw2k0VgOaaBflww" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;reactivated - https://www.flickr.com/search/?q=PA_420</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/N0rmhC7FVVvkpOqYLI-TGR-gXa-WhnHv3UdEpsjVtHpzRkxsek1bGJjrsdtTa54iXbHhIA8HbfN883z-1j_9jgF1Hl6kQNhnw2k0VgOaaBflww</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3360431,48.909126,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-588 : Charles V 6 &amp; Beautreillis</name>
+        <description>&lt;img src="https://lh6.googleusercontent.com/proxy/plCTzITpF853STqSU9SBP9G6s9uWMQceSEXrQkmjcNR_T5-L636gTrxEhFT8HMxB8ncVG9Z_tsv6vFo5YhCPQVTJj1At4Gd1z7zOtCx_q2zA2BXLafi1B_4CbAyzgiS_S232MIRHX_JCoNzKGuZAfgKNa-Naq5FENzwo0UViEpTknp62-2a6pqI8hgM" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=881</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/plCTzITpF853STqSU9SBP9G6s9uWMQceSEXrQkmjcNR_T5-L636gTrxEhFT8HMxB8ncVG9Z_tsv6vFo5YhCPQVTJj1At4Gd1z7zOtCx_q2zA2BXLafi1B_4CbAyzgiS_S232MIRHX_JCoNzKGuZAfgKNa-Naq5FENzwo0UViEpTknp62-2a6pqI8hgM</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.36323500000003,48.852637,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-734 : Fbg Montmartre 23 &amp; Geoffroy Marie </name>
+        <description>&lt;img src="https://lh5.googleusercontent.com/proxy/RuxeFEOSFCl8phBNN1N-Bjmx58pWcvMx5k5oyk1QF9jnoQM6FvAm2ZkQueqhavPxEWcK1Vnu26bGfURnByiOiMPHzhOJSzsXY8h2zJfT1u1EXw" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=1198 et http://flickrhivemind.net/Tags/pa734/Interesting</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/RuxeFEOSFCl8phBNN1N-Bjmx58pWcvMx5k5oyk1QF9jnoQM6FvAm2ZkQueqhavPxEWcK1Vnu26bGfURnByiOiMPHzhOJSzsXY8h2zJfT1u1EXw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.34312999999997,48.873215,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-770 : Tour d'Auvergne 6 &amp; Rochechouard</name>
+        <description>&lt;img src="https://lh6.googleusercontent.com/proxy/2nkx_K0uBQ9qGfYbgzC5OTWsskaOOHb7T9NJDCddmg4w45IiOsKVLXK7oPBb3MlQBw4Jr0vNZG5WIIJirk6HnQ5ggwGwiSqw-tttz8KKVDhZJZBQ-ATH2s3iVJVwE7hWjTaIj5uffunajIigMZOqHfJiGzaCKl0cM0nC6oVkmM4" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=1495 et http://flickrhivemind.net/Tags/pa770/Interesting</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/2nkx_K0uBQ9qGfYbgzC5OTWsskaOOHb7T9NJDCddmg4w45IiOsKVLXK7oPBb3MlQBw4Jr0vNZG5WIIJirk6HnQ5ggwGwiSqw-tttz8KKVDhZJZBQ-ATH2s3iVJVwE7hWjTaIj5uffunajIigMZOqHfJiGzaCKl0cM0nC6oVkmM4</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.34525099999996,48.878828,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-881 : Bac 20 &amp; Verneuil</name>
+        <description>&lt;img src="https://lh6.googleusercontent.com/proxy/Z_O4UGdvr-dbGHDP82GcFvWt-ionxrrUFucEHpdvALbeoPU3LYIPo-LX4xWNkwCjpF9LYnueplT08LFduJmynuS2WxdCzk4mKr-jMmTqyqOU2OPymoIjwEy69dcNc9fQI-u9EWDlF4KL1Kfa6_Na3TxB2se8Dl9JD6nZexDf7-Z8deqCAPhyD5oUQAf5" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=2436 et http://flickrhivemind.net/Tags/pa881/Interesting</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/Z_O4UGdvr-dbGHDP82GcFvWt-ionxrrUFucEHpdvALbeoPU3LYIPo-LX4xWNkwCjpF9LYnueplT08LFduJmynuS2WxdCzk4mKr-jMmTqyqOU2OPymoIjwEy69dcNc9fQI-u9EWDlF4KL1Kfa6_Na3TxB2se8Dl9JD6nZexDf7-Z8deqCAPhyD5oUQAf5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.32821100000001,48.8582,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-878 : Parc Royal (Le Sévigné) &amp; Payenne 15</name>
+        <description>&lt;img src="https://lh5.googleusercontent.com/proxy/2tcTHeBcQsk7d7ebBC1FI0OBMf4258b-aheSfNTE6AWhHNQZ9Av0ZX58maVLoLWiKJ5t2pmCXa6em4Y7eD--_l4Bq3bLbawsnHALQnrgPv9DHMUsjhva5HraqhppTj5LQRL5ueRq4lZUzvy7qdTKFsswz8Ow-edLk2Ch1AtT4svLD_OlwaYrq7PzNpk" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=2204</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/2tcTHeBcQsk7d7ebBC1FI0OBMf4258b-aheSfNTE6AWhHNQZ9Av0ZX58maVLoLWiKJ5t2pmCXa6em4Y7eD--_l4Bq3bLbawsnHALQnrgPv9DHMUsjhva5HraqhppTj5LQRL5ueRq4lZUzvy7qdTKFsswz8Ow-edLk2Ch1AtT4svLD_OlwaYrq7PzNpk</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.36270400000001,48.858698,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-930 : Sainte-Cécile 15 &amp; Trévise</name>
+        <description>&lt;img src="https://lh6.googleusercontent.com/proxy/aRr6Hm1GaZ_d5WIYJ9Z3IPsTKl9WZmXeBDM_gmtpTNY6mraXML0gJUS7TTrL5qI671PseRggUXh7Quxe0MtFHS8K4GwYP5SNr7jocBgrxsJfEQ" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;https://www.flickr.com/photos/95508868@N03/15297285732/ et http://flickrhivemind.net/Tags/pa930/Interesting</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/aRr6Hm1GaZ_d5WIYJ9Z3IPsTKl9WZmXeBDM_gmtpTNY6mraXML0gJUS7TTrL5qI671PseRggUXh7Quxe0MtFHS8K4GwYP5SNr7jocBgrxsJfEQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.345281,48.873183,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-931 : Richer 5 &amp; Ambroise Thomas</name>
+        <description>&lt;img src="https://lh4.googleusercontent.com/proxy/byz9PD0NkrclhZwrIXaLcjNDn_8F-Ibdxb07sFvB-1INKuNJfIU3XNc2p9ojhREYqME3dVwxiKh4Bf7O61BAee2Z8g1fSQ8-9vuRZ_7uMoKjQOQ0Vtusic5_ec5GR4L1kQbhVz8QO6ncGSvPNFPQh3HckPdeYEB1t9DFGgi0dIQpxIxfM9sK2yZvTQ" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=2306</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/byz9PD0NkrclhZwrIXaLcjNDn_8F-Ibdxb07sFvB-1INKuNJfIU3XNc2p9ojhREYqME3dVwxiKh4Bf7O61BAee2Z8g1fSQ8-9vuRZ_7uMoKjQOQ0Vtusic5_ec5GR4L1kQbhVz8QO6ncGSvPNFPQh3HckPdeYEB1t9DFGgi0dIQpxIxfM9sK2yZvTQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.34740499999998,48.874129,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-1012 : Maubeuge 35 &amp; Rochechouard</name>
+        <description>&lt;img src="https://lh6.googleusercontent.com/proxy/6vYT_aCNEkIsEI_f2dGkq88xLhxxPygykWzpb4IIyufL0WI2Pt_eJTYG5Q6WqS-V2PCMJJ_y9bSVLs-jELYmR1NVlYzNjYAtjfn_N4DAKiYtLy3_NbaNbrwsWphjvjSQIuXfj7GQuQNSztgQPWexIfvMfTrZz0e2fs16MPEG7xRGagJ8gtGzs-T31Gw" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=2661</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/6vYT_aCNEkIsEI_f2dGkq88xLhxxPygykWzpb4IIyufL0WI2Pt_eJTYG5Q6WqS-V2PCMJJ_y9bSVLs-jELYmR1NVlYzNjYAtjfn_N4DAKiYtLy3_NbaNbrwsWphjvjSQIuXfj7GQuQNSztgQPWexIfvMfTrZz0e2fs16MPEG7xRGagJ8gtGzs-T31Gw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.34529099999997,48.878537,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-1033 : 1 Boulevard des Filles du Calvaire</name>
+        <description>&lt;img src="https://lh4.googleusercontent.com/proxy/IoB3O8vigIvSr7NbwpQ0bl4lFwKqeL5OfXZs_xZG3ubraq9iakXm6w-7DXW5DcrFfm9_vDj9J59OV22rQYPFIn5_16_aFtbOaTMJjaFnvvFOSw" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://flickrhivemind.net/Tags/pa1033/Interesting</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/IoB3O8vigIvSr7NbwpQ0bl4lFwKqeL5OfXZs_xZG3ubraq9iakXm6w-7DXW5DcrFfm9_vDj9J59OV22rQYPFIn5_16_aFtbOaTMJjaFnvvFOSw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.367087,48.8610869,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-1057 &amp; PA-1062 : 64 Rue Tiquetonne</name>
+        <description>&lt;img src="https://lh5.googleusercontent.com/proxy/1Oq0TKnAjfVaZDryZ__qlG6NLk5690_-xlyg3ihI5GdNTmv4jA91RDdqiZV4rJzwzPvqgyKDPiQX4DRAYcc2oaaY8C7sDkD9z5WvpHYgSRfGXg" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://flickrhivemind.net/Tags/pa1057/Interesting http://flickrhivemind.net/Tags/pa1062/Interesting</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/1Oq0TKnAjfVaZDryZ__qlG6NLk5690_-xlyg3ihI5GdNTmv4jA91RDdqiZV4rJzwzPvqgyKDPiQX4DRAYcc2oaaY8C7sDkD9z5WvpHYgSRfGXg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3455596,48.8648347,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-1085 : Faubourg Saint-Martin &amp; Verdun</name>
+        <description>&lt;img src="https://lh4.googleusercontent.com/proxy/To-D7W9iPbBEwkLXj6nqNYrsp00SemAcPd6PnLY0t6jOklF1F9EpPUHV5EFHSLBc_R2aYU34GSp4djYj9YcWe486gSFqeopD601JZV0p_QJ3BZE" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://flickrhivemind.net/Tags/pa1085/Interesting</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/To-D7W9iPbBEwkLXj6nqNYrsp00SemAcPd6PnLY0t6jOklF1F9EpPUHV5EFHSLBc_R2aYU34GSp4djYj9YcWe486gSFqeopD601JZV0p_QJ3BZE</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3605478,48.875879,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-1097 : 18 Rue du Louvre</name>
+        <description>&lt;img src="https://lh6.googleusercontent.com/proxy/G6iRL0ffeN1B5Tq1msFXcqqmR4_ZwxNgZzvn-wD35J6IWW8eLdrhSlWmH_fccrSTxBpcws3Qjr01VQknweFZxXE59xPFUZOcYZvK9cwGNjvBMLE" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://flickrhivemind.net/Tags/pa1097/Interesting</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/G6iRL0ffeN1B5Tq1msFXcqqmR4_ZwxNgZzvn-wD35J6IWW8eLdrhSlWmH_fccrSTxBpcws3Qjr01VQknweFZxXE59xPFUZOcYZvK9cwGNjvBMLE</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3411742,48.8613631,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-1115 : 204 Rue de la Roquette</name>
+        <description>&lt;img src="https://lh5.googleusercontent.com/proxy/o3F_YV4l5988_TRWMZZfIVPLVBGWhMm6-S5lmLdZy6JbVosdSxydHpq2A1OXPV64TSpq1uzbP4BliRWujORTRElQVV1Ahur0MGvoeLsnkexUPpY" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://flickrhivemind.net/Tags/pa1115/Interesting</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/o3F_YV4l5988_TRWMZZfIVPLVBGWhMm6-S5lmLdZy6JbVosdSxydHpq2A1OXPV64TSpq1uzbP4BliRWujORTRElQVV1Ahur0MGvoeLsnkexUPpY</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3884293,48.8596929,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-1148 : 201 quai de Valmy
+</name>
+        <description>&lt;img src="https://lh4.googleusercontent.com/proxy/WWjFDTmL2-ulpqI0O6GTfGdtYhU1wjwn9PkvKj_eqVl5VJsIQn7IQMTnb_6SckALjhQt0bOXQbHpSqXhTwSPjRn2M9EAtXvnnBjIFOuREd-_MUI" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://flickrhivemind.net/Tags/pa1148/</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/WWjFDTmL2-ulpqI0O6GTfGdtYhU1wjwn9PkvKj_eqVl5VJsIQn7IQMTnb_6SckALjhQt0bOXQbHpSqXhTwSPjRn2M9EAtXvnnBjIFOuREd-_MUI</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3690477,48.8822156,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-1154 : place de la République et rue Fb du temple</name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/proxy/3DQEy5Buq6gRxxmxmTFe0EfUFjc5YIpn0idT2xauRmmn1UAkUd4kYojlxPtc8AbjBcXVDHTI_C-WEDclWl7nZS3VpeEUSMsKyVyWiOOH5KED_A" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://flickrhivemind.net/Tags/pa1154 - will he finish the square after PA-270 &amp; PA-370?</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/3DQEy5Buq6gRxxmxmTFe0EfUFjc5YIpn0idT2xauRmmn1UAkUd4kYojlxPtc8AbjBcXVDHTI_C-WEDclWl7nZS3VpeEUSMsKyVyWiOOH5KED_A</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3632729,48.8685646,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-1156 : 10 rue Vieille du Temple</name>
+        <description>&lt;img src="https://lh6.googleusercontent.com/proxy/nnzTHohaYKfs67nw1HCTM1jE8tbIxMUCMnZpRTRuKLJo1gm6vUKGvwCBSXxUk7cYdedVj_7YsjoZypmF9HEFDaVvQ2rTa_iMmqCAwTWJDH48F6E" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://flickrhivemind.net/Tags/pa1156 et https://www.flickr.com/search/?q=PA_1156</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/nnzTHohaYKfs67nw1HCTM1jE8tbIxMUCMnZpRTRuKLJo1gm6vUKGvwCBSXxUk7cYdedVj_7YsjoZypmF9HEFDaVvQ2rTa_iMmqCAwTWJDH48F6E</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3568571,48.8565799,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-1172 : 93, rue de la verrerie</name>
+        <description>&lt;img src="https://lh4.googleusercontent.com/r0eFdxyNbxRGFPCs5hOmU-R-Qaa6z_hABG8BapYxEk5mLzHuOO71IMgU5Sr5Gkg-0y58LRKFaPHd_KUHCQds9wu2n6ZBpBQkfY31slGo4P5cybNbZ4WtELjClGMsr2vti33n" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;https://instagram.com/explore/tags/pa_1172/</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/r0eFdxyNbxRGFPCs5hOmU-R-Qaa6z_hABG8BapYxEk5mLzHuOO71IMgU5Sr5Gkg-0y58LRKFaPHd_KUHCQds9wu2n6ZBpBQkfY31slGo4P5cybNbZ4WtELjClGMsr2vti33n</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3506437,48.8588343,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-069 : 40 Rue du Banquier</name>
+        <description>http://monsieurchat.free.fr/Public/Resultat.php?affiche=776</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <Point>
+          <coordinates>
+            2.3542392,48.8346464,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-087 : Sur le Pont de Bercy</name>
+        <description>&lt;img src="https://lh5.googleusercontent.com/proxy/lysoX0w3JUZA5gcGIsZb-Sj9c_YCf0czAAd9GKVnPjb-jhXREYyfjSCry-l4OV2KofPMVmQoDUDaPvYAWGyNSaIItVJ6Y8mIQUmzSJPcSD5Daku-M6DOoNEUdKhoq2-zN5ZxRtXrQw" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;très abimé http://www.ipernity.com/doc/339343/23481789</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/lysoX0w3JUZA5gcGIsZb-Sj9c_YCf0czAAd9GKVnPjb-jhXREYyfjSCry-l4OV2KofPMVmQoDUDaPvYAWGyNSaIItVJ6Y8mIQUmzSJPcSD5Daku-M6DOoNEUdKhoq2-zN5ZxRtXrQw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3740044,48.8373846,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-147 : Gare D'Austerlitz</name>
+        <description>Côté quai.... 147? 393?  440?</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <Point>
+          <coordinates>
+            2.3657942,48.8428201,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-220 : Métro Quai de la Gare</name>
+        <description>&lt;img src="https://lh6.googleusercontent.com/proxy/fWI28CZPcdrcwA36YD--Kg5qff7A4oRQ5wtBV8rwnYu6zZ0pYV2S094Va4zLeBLqKqUGBFy9SqKoipN065oZIHrTVxP138Rod7YPX-kInwViihVdz_41L4ShUgbdZxEuxQHEAZSKFrvh9f2rQcfbrUiyyL9GI2_5mlSD4fHN88wjeAMEgXr80RGBGA" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=863</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/fWI28CZPcdrcwA36YD--Kg5qff7A4oRQ5wtBV8rwnYu6zZ0pYV2S094Va4zLeBLqKqUGBFy9SqKoipN065oZIHrTVxP138Rod7YPX-kInwViihVdz_41L4ShUgbdZxEuxQHEAZSKFrvh9f2rQcfbrUiyyL9GI2_5mlSD4fHN88wjeAMEgXr80RGBGA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.373476,48.8374852,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-361: Abel Hovelacque et dAuguste Blanqui</name>
+        <description>&lt;img src="https://lh4.googleusercontent.com/proxy/D_M013AuL3Wo0DlFym9aQJsC1cEdYshtasMO2INjP_72a0l_loBuNNFiKvgSfCL79mH7zg-9rBQbBWm5wIfqv1Ohgw4QeGGsd6Hh37vr3cpyulo_WzT6lBd7_BYi2fe_bwnFcofPRQPPiiGgtah9hgdnWfriCSdkNfT3wfpMnw" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=402</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/D_M013AuL3Wo0DlFym9aQJsC1cEdYshtasMO2INjP_72a0l_loBuNNFiKvgSfCL79mH7zg-9rBQbBWm5wIfqv1Ohgw4QeGGsd6Hh37vr3cpyulo_WzT6lBd7_BYi2fe_bwnFcofPRQPPiiGgtah9hgdnWfriCSdkNfT3wfpMnw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3527265,48.830868,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-363 : Magnan - Choisy</name>
+        <description>&lt;img src="https://lh6.googleusercontent.com/proxy/uiwI0-SErkQWfvR1nA5YKsnVeJwT1kdxFfomcdyTbsYDepJ_y0b7n2lM7xx5APHuV8clC3DHyQ9CRMxxJjuLfONFojJ3yYOceJGnBNuE44AYwTUUan4X1WMhU3I9SUZjpLUIVDIoKBUSJ51oI0L8Zwh7hvB_tYugYaV6IDdlD60Ss1zd0mVlFsKL_zgp" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=623</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/uiwI0-SErkQWfvR1nA5YKsnVeJwT1kdxFfomcdyTbsYDepJ_y0b7n2lM7xx5APHuV8clC3DHyQ9CRMxxJjuLfONFojJ3yYOceJGnBNuE44AYwTUUan4X1WMhU3I9SUZjpLUIVDIoKBUSJ51oI0L8Zwh7hvB_tYugYaV6IDdlD60Ss1zd0mVlFsKL_zgp</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3600864,48.8264042,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-705 : 32 rue de Patay</name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/proxy/Rmj6zpFOyzDd1DTVLu1CH0eTzcuJWcALXTHE-9sqblP47EhZQ0cAuN-JubFfKQd5WIACqNolhIWYcqHukqxEOexOeuTctXJgIihqf40CM68tBbMEPeUocGMfZO4sh8SafQ_zUeVfQCaL_miv7ntlRPOhnX_hnChIPLSpvsFizEK9C8FfM4mSXy9LhRM" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;Emoticon http://monsieurchat.free.fr/Public/Resultat.php?affiche=705</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/Rmj6zpFOyzDd1DTVLu1CH0eTzcuJWcALXTHE-9sqblP47EhZQ0cAuN-JubFfKQd5WIACqNolhIWYcqHukqxEOexOeuTctXJgIihqf40CM68tBbMEPeUocGMfZO4sh8SafQ_zUeVfQCaL_miv7ntlRPOhnX_hnChIPLSpvsFizEK9C8FfM4mSXy9LhRM</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.374801,48.825539,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-875 : Peupliers - Moulin des prés</name>
+        <description>&lt;img src="https://lh6.googleusercontent.com/proxy/FAlvyrkil4ozjNfKCojqtwAVrxIWhlg1xJeSNZnT0NVM3I6cbSRLHPzZeIpvEAruMCbcnYt7wFC4SFG534DVlZXP-chOfY3SatWuktgh8uVgVrXcFjCiHHE5oZ1EdVcZt0qiBGYl_84Rfpv3RXiIfrO0DOvTsasf9DGJ0sQR-ZJ1rjp75UYPnhYNg3Q" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=2094</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/FAlvyrkil4ozjNfKCojqtwAVrxIWhlg1xJeSNZnT0NVM3I6cbSRLHPzZeIpvEAruMCbcnYt7wFC4SFG534DVlZXP-chOfY3SatWuktgh8uVgVrXcFjCiHHE5oZ1EdVcZt0qiBGYl_84Rfpv3RXiIfrO0DOvTsasf9DGJ0sQR-ZJ1rjp75UYPnhYNg3Q</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3539308,48.8253747,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-922 :  Pont Bercy sur  Vincent Auriol </name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/proxy/ys-Z56e0pWwZLbesBtP2Eeo4s5nDV9fZPwcyHoVqgHjwPjGJbdMJNdxrC7VUDrICk0HTT25-cTK6KHN9X8y1O01__oZ9S7L-bmhnvCG_8SPW9l6lTah_VLDZDAjrh5RUJQCQlyGJQWu0mDYjkVA4AHpz4uLvOPdqHPU86t6Vj5-W3r25KbtkWJpEUm8" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=2195</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/ys-Z56e0pWwZLbesBtP2Eeo4s5nDV9fZPwcyHoVqgHjwPjGJbdMJNdxrC7VUDrICk0HTT25-cTK6KHN9X8y1O01__oZ9S7L-bmhnvCG_8SPW9l6lTah_VLDZDAjrh5RUJQCQlyGJQWu0mDYjkVA4AHpz4uLvOPdqHPU86t6Vj5-W3r25KbtkWJpEUm8</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.373704,48.8373793,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-936 : Hopital sous métro</name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/proxy/4VYgzScWxmN_PAmxCJEJBMYRG2A_KfgO4IJ8wPCDJO1-RDJrAjjhKLNvLqPRR5crODFfJNoVpQkzZ9rBp1oWqCrxR8m29TwvxfRlJj6BZReznP_SbeWH-gFrLkC3bspn-I7YEXM_-24fqEKEQytreRHWmGIuZE80N8zpwTj-kH8U42ZECtXd2bjqW6I" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=2313</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/4VYgzScWxmN_PAmxCJEJBMYRG2A_KfgO4IJ8wPCDJO1-RDJrAjjhKLNvLqPRR5crODFfJNoVpQkzZ9rBp1oWqCrxR8m29TwvxfRlJj6BZReznP_SbeWH-gFrLkC3bspn-I7YEXM_-24fqEKEQytreRHWmGIuZE80N8zpwTj-kH8U42ZECtXd2bjqW6I</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3632514,48.8417079,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-937 et PA-938 : 78 Bd Auguste Blanqui</name>
+        <description>&lt;img src="https://lh5.googleusercontent.com/proxy/uyp1XA0idbD5j1B6dZ123xrhSQ6is8eAVExDX5Y2dxqRHzJudBjbJVKN3FdXpoRCwnpyOusG66Ox_-Xs5DdxXW30Fz1XVwK6Qoh55y-FXpfzbeykWxbKeUHsF_OJklVUWSo9q_h9AMLdbPJh_v3Ixwhs7aZqU_LIXgoU240jRsnbEEclwGaSIs5olT4" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=2315</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/uyp1XA0idbD5j1B6dZ123xrhSQ6is8eAVExDX5Y2dxqRHzJudBjbJVKN3FdXpoRCwnpyOusG66Ox_-Xs5DdxXW30Fz1XVwK6Qoh55y-FXpfzbeykWxbKeUHsF_OJklVUWSo9q_h9AMLdbPJh_v3Ixwhs7aZqU_LIXgoU240jRsnbEEclwGaSIs5olT4</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3466539,48.8304725,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-943 : Les frigos</name>
+        <description>&lt;img src="https://lh5.googleusercontent.com/proxy/tD9ZrA7mkoJqIh-15c84llntzwrs6Joqy6B9up6irC9CBvDYy6ObbtXDptHHTot280dDJTdUMZjuG_dttN7Z-uDktuRBYKmE4F19fKY3KqQeZrRIzBdNYja0Jro-xecjkFNWv188Ef--t2-IsPE239zKWu8kbyI29GjmJhMNF_QKAun8j_gpvaeXIBM" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=2561</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/tD9ZrA7mkoJqIh-15c84llntzwrs6Joqy6B9up6irC9CBvDYy6ObbtXDptHHTot280dDJTdUMZjuG_dttN7Z-uDktuRBYKmE4F19fKY3KqQeZrRIzBdNYja0Jro-xecjkFNWv188Ef--t2-IsPE239zKWu8kbyI29GjmJhMNF_QKAun8j_gpvaeXIBM</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3790014,48.8312353,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-1109 : Pointe d'Ivry et Ivry</name>
+        <description>&lt;img src="https://lh6.googleusercontent.com/proxy/AEbAH-iSoOxx01pdzp_iTIy3GxZucIMlo-5puNwqvlZtxJyLyQRe_T-QZA2fhO3rFcEWPEz3TPfN7w3h7wqJmS7tTguDwezX2VBPLVeQltJ5Ogo" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;https://www.flickr.com/photos/archi_philou/14729967670/in/set-72157634719295105</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/AEbAH-iSoOxx01pdzp_iTIy3GxZucIMlo-5puNwqvlZtxJyLyQRe_T-QZA2fhO3rFcEWPEz3TPfN7w3h7wqJmS7tTguDwezX2VBPLVeQltJ5Ogo</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.365526,48.8233599,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-040 : Laplace et Montagne Sainte Geneviève</name>
+        <description>&lt;img src="https://lh5.googleusercontent.com/proxy/u4ArBP94uEvwIWJITYzESE2rRGVv8N3bUaDqj0Xn9bUqycJyIYGwXIEDokooq9jBXcRZ0fG3bSCqnw3J7XvGT6NEAzAyl7uM5fR7IZpU361WqAteBLwG2mjmzJI-HpoEHkIEIEOT0YRa2HKmJKIFb_i4QsOF3Yn7NVh3BHyo2sr6nUQgHsK6MhAUkQ" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=977</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/u4ArBP94uEvwIWJITYzESE2rRGVv8N3bUaDqj0Xn9bUqycJyIYGwXIEDokooq9jBXcRZ0fG3bSCqnw3J7XvGT6NEAzAyl7uM5fR7IZpU361WqAteBLwG2mjmzJI-HpoEHkIEIEOT0YRa2HKmJKIFb_i4QsOF3Yn7NVh3BHyo2sr6nUQgHsK6MhAUkQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3481345,48.8471491,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-113 : 48 rue du cardinal lemoine</name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/proxy/Czf3ih9Ut_V7B3Kss_T4QrFmi_bGPKnLlGTUXVk7HqrqrxngeEjfWBOXX-fuZeOXYHbh_eLUnBaRSKGd14x3jGPleNcxi9ip9bmABQPmAVRfvTD_ijyHonlQM2gLtoarZ-Jgv_v8yZ0VSX-TsO9GxJc3f5TANnc49M_Q85wWNv7YjWU-64K5UKBHWgs" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=1931 - https://www.flickr.com/photos/meteorry/4565476992/</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/Czf3ih9Ut_V7B3Kss_T4QrFmi_bGPKnLlGTUXVk7HqrqrxngeEjfWBOXX-fuZeOXYHbh_eLUnBaRSKGd14x3jGPleNcxi9ip9bmABQPmAVRfvTD_ijyHonlQM2gLtoarZ-Jgv_v8yZ0VSX-TsO9GxJc3f5TANnc49M_Q85wWNv7YjWU-64K5UKBHWgs</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3515919,48.8467687,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-155 : 16 Rue des Trois Portes </name>
+        <description>&lt;img src="https://lh6.googleusercontent.com/proxy/h3G_3RWcKM6-01cEOG4OFfjvt_5iEbuTm15bD3w-CxYJVAezJm5zi5BB9ugJayv3tqcIuMRnj9DSQTnWjMW89t6JgYfdzscrf7yncWtriNJ7MXlDz3MzcdAMVf6aD_h7vr8c0tE1pOUAnTbbdZ_uaKa3p_N2qRZ_dC0WK6AUK-iaYH4QP_6dJ9BHtBAW" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=978</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/h3G_3RWcKM6-01cEOG4OFfjvt_5iEbuTm15bD3w-CxYJVAezJm5zi5BB9ugJayv3tqcIuMRnj9DSQTnWjMW89t6JgYfdzscrf7yncWtriNJ7MXlDz3MzcdAMVf6aD_h7vr8c0tE1pOUAnTbbdZ_uaKa3p_N2qRZ_dC0WK6AUK-iaYH4QP_6dJ9BHtBAW</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3482244,48.8514001,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-334 : Place Valhubert</name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/proxy/RMpnLILu4emLGZgwXPjbBdIbzoRC0f3jtRYeb-ZzAJjrP3UbyPuLqLIT7SgRCSQOzfH-YrDCyV_-LxM2BoAN2fS9edAuAYr3LnHZTd_lD0-FFTjSXOJFhm3FKuqGvezlsvHdIYmGUgLJnmPXZurl7FNws98B3BEeBGrXoHjZNg" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=122</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/RMpnLILu4emLGZgwXPjbBdIbzoRC0f3jtRYeb-ZzAJjrP3UbyPuLqLIT7SgRCSQOzfH-YrDCyV_-LxM2BoAN2fS9edAuAYr3LnHZTd_lD0-FFTjSXOJFhm3FKuqGvezlsvHdIYmGUgLJnmPXZurl7FNws98B3BEeBGrXoHjZNg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3639756,48.8441687,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-401 : 4 rue Linné</name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/proxy/Rm8YPZ98SCMeyfvgS1RIL5_JRhE7ARGB66o1-svJqpC_NXYMJpnrZLTMyiHR7YM50Dt_HfC9QhWVlnq2rQvj1uUhjMav9z_6sswVAYN7Q9MwiX6-v9BnI1rLAVGF3r3egsqoDoV8TcYMIcYP5g4TbetFMN6AQ3BHFsKG8wXMV1UzYAKCyM7a" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=431</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/Rm8YPZ98SCMeyfvgS1RIL5_JRhE7ARGB66o1-svJqpC_NXYMJpnrZLTMyiHR7YM50Dt_HfC9QhWVlnq2rQvj1uUhjMav9z_6sswVAYN7Q9MwiX6-v9BnI1rLAVGF3r3egsqoDoV8TcYMIcYP5g4TbetFMN6AQ3BHFsKG8wXMV1UzYAKCyM7a</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3550037,48.8439992,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-502 - Censier29 - Clef</name>
+        <description>&lt;img src="https://lh5.googleusercontent.com/proxy/3KOubavXLJFVNqCr0UxIV6NHCAlZwEc9j4T_YP_x1DJZWeZriZgFPRL2Qum7fVn1BrqVJIkkIJi5BrRkb9vnbHQ9nD1inPJWcTVEd_06V6V2bfIrP8jQfVhgEW2Fg2rRnuoir2MswfBPm7w62ksFillHngvGYgz7GjaqCP7J9U4" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=973</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/3KOubavXLJFVNqCr0UxIV6NHCAlZwEc9j4T_YP_x1DJZWeZriZgFPRL2Qum7fVn1BrqVJIkkIJi5BrRkb9vnbHQ9nD1inPJWcTVEd_06V6V2bfIrP8jQfVhgEW2Fg2rRnuoir2MswfBPm7w62ksFillHngvGYgz7GjaqCP7J9U4</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3529947,48.8403681,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-528 :  Domat  et Anglais</name>
+        <description>&lt;img src="https://lh6.googleusercontent.com/proxy/YKyLBg9WwRNaLCPo6OmLfy2MXfHhTPvgQ8aWxu-np9USTSnJ5K5_-MKaQvdU2r1ousdHGoqQ-M0E2Uj5cNpXcAWV2_Mtj97IZCWmYes5KIP0CRpOrlTPAE6yepYFsjGbNWXJTbsgr7egFe75fXUE1at3zB5tAva_xtK006MXb-FP4llb6Bl8L5M7VhOz" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=223</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/YKyLBg9WwRNaLCPo6OmLfy2MXfHhTPvgQ8aWxu-np9USTSnJ5K5_-MKaQvdU2r1ousdHGoqQ-M0E2Uj5cNpXcAWV2_Mtj97IZCWmYes5KIP0CRpOrlTPAE6yepYFsjGbNWXJTbsgr7egFe75fXUE1at3zB5tAva_xtK006MXb-FP4llb6Bl8L5M7VhOz</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3475015,48.8506818,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-636 - Poissy 32</name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/proxy/PTIU0non654_eZAU45vxsjANYMpZ7y3w4O2T1l8jhrFaA4eIL7dGgcY39MUiTkTIzMl5kcsgL6HiM4qzbKn6bz-YWS4wQr1svTz1pxv_dTZGxuTecgoH67k2JEWYWtbviPrCQ9ogAoOMOtvjUJ581AvHyiT0NH9dRxAnH1WRRcrTZ8lSBAhs" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=434</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/PTIU0non654_eZAU45vxsjANYMpZ7y3w4O2T1l8jhrFaA4eIL7dGgcY39MUiTkTIzMl5kcsgL6HiM4qzbKn6bz-YWS4wQr1svTz1pxv_dTZGxuTecgoH67k2JEWYWtbviPrCQ9ogAoOMOtvjUJ581AvHyiT0NH9dRxAnH1WRRcrTZ8lSBAhs</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3516267,48.8479708,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-679 : Arbalète et Mouffetard</name>
+        <description>&lt;img src="https://lh6.googleusercontent.com/proxy/BrAHrgyXURBLfSpo_evVCZgdvnBMk812VwAZBHrIhHfpPWACary8AA6cNjSwjonhAtKHJnQPN926bFXD6czGC9c-nklNgQtaVGZxkx6J7aFKI0UYSpoxKcO7lyI7Lr0-i7IoUc9d_RA4yYQUl_qgNcb9uSaF685zJMjM_f2FdB9lG2MtqiXryEclAw" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=597</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/BrAHrgyXURBLfSpo_evVCZgdvnBMk812VwAZBHrIhHfpPWACary8AA6cNjSwjonhAtKHJnQPN926bFXD6czGC9c-nklNgQtaVGZxkx6J7aFKI0UYSpoxKcO7lyI7Lr0-i7IoUc9d_RA4yYQUl_qgNcb9uSaF685zJMjM_f2FdB9lG2MtqiXryEclAw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3497868,48.8404228,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-684 : 28 Rue Poliveau</name>
+        <description>&lt;img src="https://lh4.googleusercontent.com/proxy/ZvtLRp5K0PtR-Fz3khGYeB0G53aFWmFlyi7q269Z1cxLeps65FSdyJay8llO7dY1ypvrGoPD61bF1PaySnvOFeYobuCYT4WEcSp0XtA2tWVVoJXnOL2iy2jOEioqdz7u_lbILRvkgS_wvT4n45oz609aRpS8l0-YbZeJKjie6lJOwIdJxDdDZULMC5E" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=575</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/ZvtLRp5K0PtR-Fz3khGYeB0G53aFWmFlyi7q269Z1cxLeps65FSdyJay8llO7dY1ypvrGoPD61bF1PaySnvOFeYobuCYT4WEcSp0XtA2tWVVoJXnOL2iy2jOEioqdz7u_lbILRvkgS_wvT4n45oz609aRpS8l0-YbZeJKjie6lJOwIdJxDdDZULMC5E</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3589116,48.8401333,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-765 : Clotilde et Estrapade</name>
+        <description>&lt;img src="https://lh5.googleusercontent.com/proxy/WWw6PIosthBaPOfHL-GU7RS8bP1aveQx1gHbv06Y7_k1znqGLQPW-Y8IK5zcwCkyF79QJtuRfx2nE8zs8XXszUh45TQRJ3gkjLr5pzfiwEBRNBYRp5KOdVxqwXbxD_XhQ-WPMiSQUPHiDJ-NHBDEaK436HR8f87fFIzuo9PQVpYH6b86QNi6DUPTHDE" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=1415</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/WWw6PIosthBaPOfHL-GU7RS8bP1aveQx1gHbv06Y7_k1znqGLQPW-Y8IK5zcwCkyF79QJtuRfx2nE8zs8XXszUh45TQRJ3gkjLr5pzfiwEBRNBYRp5KOdVxqwXbxD_XhQ-WPMiSQUPHiDJ-NHBDEaK436HR8f87fFIzuo9PQVpYH6b86QNi6DUPTHDE</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3467076,48.8448183,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-766 : Mouffetard et Epée de Bois, Calvin, </name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/proxy/yCfJv7B0BjEkL4D85ZjA5-UZeY9PbLQ7BNKoTFdFyIPbwig3nMQ5jpwfsTzScxXt0yJgzCgnoUiwWmVzgqVOOCsn9Ts7T_XXVSThvzPJ7UednlTb8hWIQntMx1Mbd4sh1BDxYDjcF-cr6CaXmIxNpweuhV6QnTOlkRfv3IyJsaWiO6NOTMr7kqX8n-vR" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=1424</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/yCfJv7B0BjEkL4D85ZjA5-UZeY9PbLQ7BNKoTFdFyIPbwig3nMQ5jpwfsTzScxXt0yJgzCgnoUiwWmVzgqVOOCsn9Ts7T_XXVSThvzPJ7UednlTb8hWIQntMx1Mbd4sh1BDxYDjcF-cr6CaXmIxNpweuhV6QnTOlkRfv3IyJsaWiO6NOTMr7kqX8n-vR</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3496795,48.8414255,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-767 : 3 Rue du Fer à Moulin</name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/proxy/odZNWkXMgklg8-X-ciOwxDlGSOIptrt3BCCpV6PIfGbwnakJlNj8n35ott1-rZgK8qRAlW0gpzLRzU2hTL2TP0QerAh9Jds2bxxh2og2A4Vr68jm35JFD6K2yX51HLTRyGQKkChg1Phw_XJZIzYPIhPVtZ8L447n5vGHcuY3MzREkNf7Gvq5b7qvVVFq" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=1418</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/odZNWkXMgklg8-X-ciOwxDlGSOIptrt3BCCpV6PIfGbwnakJlNj8n35ott1-rZgK8qRAlW0gpzLRzU2hTL2TP0QerAh9Jds2bxxh2og2A4Vr68jm35JFD6K2yX51HLTRyGQKkChg1Phw_XJZIzYPIhPVtZ8L447n5vGHcuY3MzREkNf7Gvq5b7qvVVFq</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3562455,48.8396743,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-873 : Chateau qui peche et Quai St Michel</name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/proxy/FpfrBJcAnXW7vtd8WizuMa5wu9J7tC0PhcYSrhJe0WgvlPdothL2vo0kzmD53zVox7yodG7v-91GSafWqaoIrlsLpckZxXRH0fgg_2_6Lo1Jiwil9FVjfdAFr65dGYmBZTe9gMkfbOCeu2MXqXfQo0BwexOeAhGquQVmFU-1FomjVLi9VePnvOodKvI" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=2058</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/FpfrBJcAnXW7vtd8WizuMa5wu9J7tC0PhcYSrhJe0WgvlPdothL2vo0kzmD53zVox7yodG7v-91GSafWqaoIrlsLpckZxXRH0fgg_2_6Lo1Jiwil9FVjfdAFr65dGYmBZTe9gMkfbOCeu2MXqXfQo0BwexOeAhGquQVmFU-1FomjVLi9VePnvOodKvI</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3461631,48.853218,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-874 -  Huchette 19</name>
+        <description>&lt;img src="https://lh4.googleusercontent.com/proxy/gtowbuX3ZcB7vM-CM3oIhTgq29VddGKfCfAFuNwSP4r3H4dxRguaMINp9AnNYko7l2WY0o09pA5JQfyMn9tHR8KsoxQ7JuAOSv-c7wwWCpZbGOPbM54YVjzPZPBIefJsHw9HJD76FE0RXMnEXDPuaZQxkaRGarfY-8_Q-kmubNUTdob4qEVPhhJOxFk" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=2057</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/gtowbuX3ZcB7vM-CM3oIhTgq29VddGKfCfAFuNwSP4r3H4dxRguaMINp9AnNYko7l2WY0o09pA5JQfyMn9tHR8KsoxQ7JuAOSv-c7wwWCpZbGOPbM54YVjzPZPBIefJsHw9HJD76FE0RXMnEXDPuaZQxkaRGarfY-8_Q-kmubNUTdob4qEVPhhJOxFk</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3456334,48.8530371,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-1086 : 9 rue des Anglais</name>
+        <description>&lt;img src="https://lh5.googleusercontent.com/proxy/hXLRzt_oqo5X2ambaaheAFfDkL47HhAo_c28ry28plT4sgfzCQq73t-4FEG7tVpQaMElg2oWpjD9Z8EobK6gWkrnDXykzAC3MPF2BCvzJbXEngU" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://flickrhivemind.net/Tags/pa1086/Recent</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/hXLRzt_oqo5X2ambaaheAFfDkL47HhAo_c28ry28plT4sgfzCQq73t-4FEG7tVpQaMElg2oWpjD9Z8EobK6gWkrnDXykzAC3MPF2BCvzJbXEngU</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.347995,48.8510489,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-1087 : Petit-Pont 3</name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/proxy/2JoIGUTmjWcH-oMWt4IxIf1snrtqZYgQiMVj1H7fDOpKPaDdy7CbUdtAaylVMIrN5QYhL79DWAQH44ch-zKqpqyG8ZVE0uaHL0t6XIJC_uCvRh8" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;Pingouin https://www.flickr.com/photos/archi_philou/11890997043/</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/2JoIGUTmjWcH-oMWt4IxIf1snrtqZYgQiMVj1H7fDOpKPaDdy7CbUdtAaylVMIrN5QYhL79DWAQH44ch-zKqpqyG8ZVE0uaHL0t6XIJC_uCvRh8</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3464561,48.8527878,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-1088 - Buffon et Geoffroy St Hilaire</name>
+        <description>&lt;img src="https://lh5.googleusercontent.com/proxy/0Hw1Vpru3tq-q832DYOMXBEH4Sjk9qQZzpDJXyqnPr0Lp96VVxOdJaiq9l7T5s4usVcWMCZOmErhlHe0jnlLZdTHb_JfF2aQTRWNfptzNz0Zvn4" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;Gorille http://flickrhivemind.net/Tags/pa1088/Interesting</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/0Hw1Vpru3tq-q832DYOMXBEH4Sjk9qQZzpDJXyqnPr0Lp96VVxOdJaiq9l7T5s4usVcWMCZOmErhlHe0jnlLZdTHb_JfF2aQTRWNfptzNz0Zvn4</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3560216,48.8411682,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>RV 2011 - Bièvre 4</name>
+        <description>&lt;img src="https://lh5.googleusercontent.com/proxy/1XBXPwJ_nu9vERCN7ucHThrqSlfxJtsQE1tNnTG0Z_5TtiSHKyurfWreL_jZGnge3Viepk4Ki1x2_n0uOMo-8KcZfCfWZ6WTlC8e9GYwTwp-6jF5-5MZk1d-Le_hOYse5GIQ1CN51bKvQf7di7zHLY6zChLGHqa2Mzjm3KBCNPhk1W887VUTzJ-0aYw" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=2717</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/1XBXPwJ_nu9vERCN7ucHThrqSlfxJtsQE1tNnTG0Z_5TtiSHKyurfWreL_jZGnge3Viepk4Ki1x2_n0uOMo-8KcZfCfWZ6WTlC8e9GYwTwp-6jF5-5MZk1d-Le_hOYse5GIQ1CN51bKvQf7di7zHLY6zChLGHqa2Mzjm3KBCNPhk1W887VUTzJ-0aYw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3508382,48.8511672,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>RV2011 : Galande et Dante - ID-2677 </name>
+        <description>&lt;img src="https://lh6.googleusercontent.com/proxy/0Gi8zdBkKuh-phMp71iQrwOZtn0aoTipwjs4LbCQ7xNjo_SYl3QWEV2sHDdkQAcYdpa6TvD33KI2FnXblWZ4y-R5tnwuof_waGE5VGWyodQPrCz-PEWgfPYm3I3omjB3mA-woTy3-ViiuMYnHoiQh2eJ_O33E1aGmpD3GjMiY70" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=2677</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/0Gi8zdBkKuh-phMp71iQrwOZtn0aoTipwjs4LbCQ7xNjo_SYl3QWEV2sHDdkQAcYdpa6TvD33KI2FnXblWZ4y-R5tnwuof_waGE5VGWyodQPrCz-PEWgfPYm3I3omjB3mA-woTy3-ViiuMYnHoiQh2eJ_O33E1aGmpD3GjMiY70</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3472601,48.8514707,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-005 : Guisard &amp; Canette</name>
+        <description>&lt;img src="https://lh5.googleusercontent.com/proxy/Perzan7F21mDyuuBvahvGwynOUwhwQQQ5Ao9M3NwtuRHRUCcy68IdSEXypdeWbue11WJqDL6X6gERo-ASRfO7Suc7UFRtgKYnlzMCe-MNREliQpG5Jk0abQtDxOPz79FOlFZ94i6b3jXEkuHXWVWDUQceM7ElTJplknstZoy_g" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=348</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/Perzan7F21mDyuuBvahvGwynOUwhwQQQ5Ao9M3NwtuRHRUCcy68IdSEXypdeWbue11WJqDL6X6gERo-ASRfO7Suc7UFRtgKYnlzMCe-MNREliQpG5Jk0abQtDxOPz79FOlFZ94i6b3jXEkuHXWVWDUQceM7ElTJplknstZoy_g</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.33370423316956,48.851846649216,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-006 : Echaudé et Seine</name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/proxy/XoImOefE65ETkirm-QDFmFMjLzNy5PLpFFMAYfXiWSYz8LF2Yb8zM_XJonxN0Malz4BM-GWAS6ZVk_g4gNGTQphykATjiB5_FNo4PbiaelBS7zScOfkWzWo2uCHOnirguGjtWvddwMqpCNhXYpttNzynrkP5QvGLcWrp8wm5DYqDeC0ghjFjtwBT7heD" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=938</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/XoImOefE65ETkirm-QDFmFMjLzNy5PLpFFMAYfXiWSYz8LF2Yb8zM_XJonxN0Malz4BM-GWAS6ZVk_g4gNGTQphykATjiB5_FNo4PbiaelBS7zScOfkWzWo2uCHOnirguGjtWvddwMqpCNhXYpttNzynrkP5QvGLcWrp8wm5DYqDeC0ghjFjtwBT7heD</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3367271,48.8551804,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-044 : St André des Arts 65</name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/proxy/txqSFdWe9g4JtJ8pcQqT_1zyRD1_3tf9o7F3or3P-pYk_NiehNmjNfN7iUka-ljZZ3RYaYrpAQLx8FHs5GmgPW6uGatrp-Tg0uKjnzKu6dxXOTbgMQTt9tfyvcW34gYy0p94roj3Y6MenQ11quMLcAG-lbba2S0U3iTQsgWTxplzulRKx6aBPJKZjg" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;PA044 et 3 autres non identifiés http://monsieurchat.free.fr/Public/Resultat.php?affiche=31</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/txqSFdWe9g4JtJ8pcQqT_1zyRD1_3tf9o7F3or3P-pYk_NiehNmjNfN7iUka-ljZZ3RYaYrpAQLx8FHs5GmgPW6uGatrp-Tg0uKjnzKu6dxXOTbgMQTt9tfyvcW34gYy0p94roj3Y6MenQ11quMLcAG-lbba2S0U3iTQsgWTxplzulRKx6aBPJKZjg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3384839,48.8535992,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-121 : Saint Pères 7</name>
+        <description>&lt;img src="https://lh4.googleusercontent.com/proxy/rgKaRVg33inxJmLSdxzkF3AY_sCm0wHHq4IbZUAqdYe9ovv0pJ0kYRHgalIVngv7p6q6AlKpO3u4UK4xeY1JI9Ko_Eid3CsC-Y10huCi1g" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=957 et http://flickrhivemind.net/Tags/pa121/Interesting</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/rgKaRVg33inxJmLSdxzkF3AY_sCm0wHHq4IbZUAqdYe9ovv0pJ0kYRHgalIVngv7p6q6AlKpO3u4UK4xeY1JI9Ko_Eid3CsC-Y10huCi1g</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3327869,48.8576176,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-180 &amp; 182 : 14 rue madame</name>
+        <description>&lt;img src="https://lh5.googleusercontent.com/proxy/kCoQfpwb_7LPU9qnpaw871PTX9NInx2VYOHLFFeaIKmxtBIbjD2qKTbiXez1SdBJpKTYADZQvP49mUAR168fbjAJq1yUBepZFuaW05Ji1uoX2hWMD8K8MxjM0EOzNRmnei2ZqNz8hhMZJ3IxYF0vxHFWw1-W-h9_a_OpUebKyo0" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=347&lt;br&gt;&lt;br&gt;&lt;img src="https://lh4.googleusercontent.com/proxy/itli0ZJkDuy9M_MDL7UzQwtr_deN7zJ-BPSlML6x_49BZqGBxEnZxIYFwRfgpjlBmAb6LePKGIq8O8fjtZ3Az9i7nvCz6K8N17UtzmE5SCbzjmUeuEZ8azUSQXTjaPt1ghevk1E5cm8J4rs-F8yRz0rKuO2LW2D_gHG_GV0gqaU" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;&lt;img src="https://lh4.googleusercontent.com/proxy/6gsgyw8-WM5wIilLdaOBwIatSrgAdoPeLg4etS2qMi6rk27YfOU3jSHseamCUFicpdU6uYoDSV6RG-Xv-xzg0qeXf2KCDAIyBEj4UwBgvUWQapSXons9ptsnyvf7yToxwDBIZXBRJb3w7CMUefvAu-vkuwE2dkZsfzTOLmF89gE" height="200" width="auto" /&gt;</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/kCoQfpwb_7LPU9qnpaw871PTX9NInx2VYOHLFFeaIKmxtBIbjD2qKTbiXez1SdBJpKTYADZQvP49mUAR168fbjAJq1yUBepZFuaW05Ji1uoX2hWMD8K8MxjM0EOzNRmnei2ZqNz8hhMZJ3IxYF0vxHFWw1-W-h9_a_OpUebKyo0 https://lh4.googleusercontent.com/proxy/itli0ZJkDuy9M_MDL7UzQwtr_deN7zJ-BPSlML6x_49BZqGBxEnZxIYFwRfgpjlBmAb6LePKGIq8O8fjtZ3Az9i7nvCz6K8N17UtzmE5SCbzjmUeuEZ8azUSQXTjaPt1ghevk1E5cm8J4rs-F8yRz0rKuO2LW2D_gHG_GV0gqaU https://lh4.googleusercontent.com/proxy/6gsgyw8-WM5wIilLdaOBwIatSrgAdoPeLg4etS2qMi6rk27YfOU3jSHseamCUFicpdU6uYoDSV6RG-Xv-xzg0qeXf2KCDAIyBEj4UwBgvUWQapSXons9ptsnyvf7yToxwDBIZXBRJb3w7CMUefvAu-vkuwE2dkZsfzTOLmF89gE</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3319286,48.8511071,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-181 : 20-24 Rue Madame
+</name>
+        <description>http://monsieurchat.free.fr/Public/Resultat.php?affiche=347</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <Point>
+          <coordinates>
+            2.3318119,48.8506253,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-184: Serpente, Mignon, Danton
+</name>
+        <description>http://monsieurchat.free.fr/Public/Resultat.php?affiche=956</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <Point>
+          <coordinates>
+            2.341767,48.8523832,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-229 : Rue Antoine Dubois</name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/proxy/20QCwYfAYzzXuKvabPfe-RlZIC7djaSOnPZzRYGkIWpceULppa-G7ihQVpxgsfPyiu46nRCrP4lPjhM81TYH0CUwF7lpO_-2QPIk846bxiQkeJUh-maQWrreK4S9PblI3hDNhcLGfuV621TFZmsbJLLCAWkTG7wJwbLcGhybAy25" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=702</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/20QCwYfAYzzXuKvabPfe-RlZIC7djaSOnPZzRYGkIWpceULppa-G7ihQVpxgsfPyiu46nRCrP4lPjhM81TYH0CUwF7lpO_-2QPIk846bxiQkeJUh-maQWrreK4S9PblI3hDNhcLGfuV621TFZmsbJLLCAWkTG7wJwbLcGhybAy25</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.339703,48.8510542,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-455 : 48, rue Mazarine</name>
+        <description>&lt;img src="https://lh4.googleusercontent.com/proxy/kH0LOcFx0aXqbGSc_Lp7IMauzJs3L3YoksLl3DiD8HzR1osniCV9W0HyGItmGM8vGL-30Qx4E_awU1LIesOjefe22pTLwbpZF1B_9bZ0Igo9B3zsgoH0Ssi-NeqSX6eT2g8zfrbdu9lxuEN3g3lSv5EY53kYcanEX1Js8Tkn4yDJrlH77Hv0nH2nfA" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=226</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/kH0LOcFx0aXqbGSc_Lp7IMauzJs3L3YoksLl3DiD8HzR1osniCV9W0HyGItmGM8vGL-30Qx4E_awU1LIesOjefe22pTLwbpZF1B_9bZ0Igo9B3zsgoH0Ssi-NeqSX6eT2g8zfrbdu9lxuEN3g3lSv5EY53kYcanEX1Js8Tkn4yDJrlH77Hv0nH2nfA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3377007,48.8552281,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-473 : Saint Sulpice 3</name>
+        <description>&lt;img src="https://lh6.googleusercontent.com/proxy/MGOVHJUEZ6cyfS80buSyG08G3zUybLEnh9C4Wk1MwFsLXX_PidPT5NOle4IZOeUhjkfoAX9c0Et0a3UUL77BUDKQ1efuACbmheZRks6vlCy0q_Gz6j0e8Bt8dGYJS589I5qcbwvgojEWryTzWAvNPT0Z7otguOMWcgKmAXYulrOqxZZo9AsAPw33Ak0Z" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=1346</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/MGOVHJUEZ6cyfS80buSyG08G3zUybLEnh9C4Wk1MwFsLXX_PidPT5NOle4IZOeUhjkfoAX9c0Et0a3UUL77BUDKQ1efuACbmheZRks6vlCy0q_Gz6j0e8Bt8dGYJS589I5qcbwvgojEWryTzWAvNPT0Z7otguOMWcgKmAXYulrOqxZZo9AsAPw33Ak0Z</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3380199,48.8514848,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-673 : Ancienne Comédie</name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/proxy/wcYF68Tp5EKPgSh_uGEl7mhALCiu9o_pbmHc8OvGlZFCgSCkSFkbXrbE1zbvykY0f2Y-hjuLY7R0Vlxp39lWKsdqKr3IkGgSwhjbhtZXuATTVsmXxEBJTeJ8Pp2ccr8kDqxkFPzZSTSDOfN2yZ0LyHuZmhyoL5QwajTH1Dvo0T2eyCCnWdYi9yCqSys" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=500</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/wcYF68Tp5EKPgSh_uGEl7mhALCiu9o_pbmHc8OvGlZFCgSCkSFkbXrbE1zbvykY0f2Y-hjuLY7R0Vlxp39lWKsdqKr3IkGgSwhjbhtZXuATTVsmXxEBJTeJ8Pp2ccr8kDqxkFPzZSTSDOfN2yZ0LyHuZmhyoL5QwajTH1Dvo0T2eyCCnWdYi9yCqSys</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.338323,48.8535603,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-677 : Seine et Jacob</name>
+        <description>&lt;img src="https://lh6.googleusercontent.com/proxy/bUapAWYivOL2EUewpWdCvANMC-vSVE_ZCjOe4yCwt6DRA2YlO7zNTOWtzFHCl98Uoi8pyeIAz9rz7CG2SyNc-nzE91KawGyTXYFSZ4WfPmATy8XBpwWWESzdg8z0szjwTjOXjUNsiHczJYyVDIL93xNNFyLO08fdANmWfAPXsnE" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=492</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/bUapAWYivOL2EUewpWdCvANMC-vSVE_ZCjOe4yCwt6DRA2YlO7zNTOWtzFHCl98Uoi8pyeIAz9rz7CG2SyNc-nzE91KawGyTXYFSZ4WfPmATy8XBpwWWESzdg8z0szjwTjOXjUNsiHczJYyVDIL93xNNFyLO08fdANmWfAPXsnE</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3367271,48.8546369,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-678 : Rue de Seine</name>
+        <description>&lt;img src="https://lh6.googleusercontent.com/proxy/mYqsjv4GItBZawtmJ3bP5na96bbjvOlshdhQv_Y5AiRqiezM7TMJSId2WKYlcPUpTaJ-R8s1pfaH7-fayMaOXLnkqLAu58IbGUegD5VcRVmXhlYbOdHawWip-pEPNMpnMMSZ7CVa4OfTP9Y8c8jQP9jDZQVWiXCu_7aeCC5ZvXc" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=493</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/mYqsjv4GItBZawtmJ3bP5na96bbjvOlshdhQv_Y5AiRqiezM7TMJSId2WKYlcPUpTaJ-R8s1pfaH7-fayMaOXLnkqLAu58IbGUegD5VcRVmXhlYbOdHawWip-pEPNMpnMMSZ7CVa4OfTP9Y8c8jQP9jDZQVWiXCu_7aeCC5ZvXc</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3364455,48.8572082,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-747 : 78 rue Mazarine</name>
+        <description>&lt;img src="https://lh4.googleusercontent.com/proxy/cwqGLMzbubdZ7eODxY6zWduWLJrS-UzrWK4tH2UweNqyNLMMDI7HqYiRqIvdg4Wfjv6AM4802pq-iEJvM_gis98ocKMdt5UKF1EG-vtlcTZGtA" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;au fond de la librairie http://www.flickr.com/photos/96419267@N00/2534975844</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/cwqGLMzbubdZ7eODxY6zWduWLJrS-UzrWK4tH2UweNqyNLMMDI7HqYiRqIvdg4Wfjv6AM4802pq-iEJvM_gis98ocKMdt5UKF1EG-vtlcTZGtA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3381701,48.8539804,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-764 : 7 rue Danton et Serpente</name>
+        <description>&lt;img src="https://lh5.googleusercontent.com/proxy/K-_W_Klzu2o9YwLVDRlLMo6xmUUx9F_2TbNz6D5qwZ5NZO64-tWcXjG5uLaclWocsgQQY7XzDX-UMOhCF4JnNOqXwZz3JqjfjhFd-wfghmDgcsKw8Ibv6HsZWqNqnZv1xVm3zh_frrpqYDwTawjydvxgLUiagxUULgIjgyn-YAdljoDHz7S3jjMaUsc" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=1414</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/K-_W_Klzu2o9YwLVDRlLMo6xmUUx9F_2TbNz6D5qwZ5NZO64-tWcXjG5uLaclWocsgQQY7XzDX-UMOhCF4JnNOqXwZz3JqjfjhFd-wfghmDgcsKw8Ibv6HsZWqNqnZv1xVm3zh_frrpqYDwTawjydvxgLUiagxUULgIjgyn-YAdljoDHz7S3jjMaUsc</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3414317,48.8524538,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-780 : Madame – Vieux Colombier</name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/proxy/Uqn3I9LRMkF3qJuQItlwtPwbT2Ye91x5zyVVOSBUJw6joOif5ofH76bjPJ88De_t9vk9KDcAXuSwkXraTeJ0uQNVuHmolfvW-kaYKV8hHM9aOFmnauxMI29pyO3ksUg9mkmTGbV9mAWIp8yiJtjQjHL1zliaw3skiBH0hT5d6SoQW53v8CHnJQElf0o" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=1529</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/Uqn3I9LRMkF3qJuQItlwtPwbT2Ye91x5zyVVOSBUJw6joOif5ofH76bjPJ88De_t9vk9KDcAXuSwkXraTeJ0uQNVuHmolfvW-kaYKV8hHM9aOFmnauxMI29pyO3ksUg9mkmTGbV9mAWIp8yiJtjQjHL1zliaw3skiBH0hT5d6SoQW53v8CHnJQElf0o</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.332001,48.8513419,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-795 :  8 Cours du Commerce Saint André des Arts</name>
+        <description>&lt;img src="https://lh6.googleusercontent.com/proxy/UhYYpx9Xw2CqPeU2oKn5AGylZ4uS-Wn8Sfia722GUqjq3vj5WuEmruXWMtLIqa8OhPVV84EU6QALj2eztkxGdqK0rLCWOfE8LODlszMvVDbkS2Hr9r_ZK7hbUz8tNhKYD2jDIjAtK9Lszb09n2x1MpONYufkxrIIJhgCqaF20iKmDoyDsUNOXgZLiQ" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=1640</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/UhYYpx9Xw2CqPeU2oKn5AGylZ4uS-Wn8Sfia722GUqjq3vj5WuEmruXWMtLIqa8OhPVV84EU6QALj2eztkxGdqK0rLCWOfE8LODlszMvVDbkS2Hr9r_ZK7hbUz8tNhKYD2jDIjAtK9Lszb09n2x1MpONYufkxrIIJhgCqaF20iKmDoyDsUNOXgZLiQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.339294,48.8525985,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-798 : Bd St Germain 184</name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/proxy/FmIco8j-x6KSBPlLAmzimS27KrHbE4CGGnmCS18SEuQF_m6KqgmEl3K9O4aHeNKPl4MLzhcWbwEt-egJWFCXRuZi0AxKpictOpCw9RRZPlsWm3oliqiw2u0yIS3LeCpTLTte-2EzAQd8vHzA0vVmmzasB5kcgcgJKFtvkNXcy2o" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=1638</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/FmIco8j-x6KSBPlLAmzimS27KrHbE4CGGnmCS18SEuQF_m6KqgmEl3K9O4aHeNKPl4MLzhcWbwEt-egJWFCXRuZi0AxKpictOpCw9RRZPlsWm3oliqiw2u0yIS3LeCpTLTte-2EzAQd8vHzA0vVmmzasB5kcgcgJKFtvkNXcy2o</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3309872,48.8544128,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-802 : 20 rue du Four</name>
+        <description>&lt;img src="https://lh5.googleusercontent.com/proxy/sFflkayBSq-QMBsPTXayR09MiFHOYYg3C6M42SJANC6pWDA1RPcbVYEUtFw1VKundTwwwR52op9wRX1cyaMEA5DQzXbb1vqR68RqKfGg_aYYdLIXO7kfX-cW0H8bZR6QSKtruMDQq6utk0SPdU_gnDvaVlwRryaiF4bUpxVBKkUT6ctuuUYivsK6KbA" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=1645</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/sFflkayBSq-QMBsPTXayR09MiFHOYYg3C6M42SJANC6pWDA1RPcbVYEUtFw1VKundTwwwR52op9wRX1cyaMEA5DQzXbb1vqR68RqKfGg_aYYdLIXO7kfX-cW0H8bZR6QSKtruMDQq6utk0SPdU_gnDvaVlwRryaiF4bUpxVBKkUT6ctuuUYivsK6KbA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3338477,48.8527467,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-803 : Cours du Commerce et Bd St Germain</name>
+        <description>&lt;img src="https://lh6.googleusercontent.com/proxy/5k-CiA0eNfCjQXEP6_unP3zi29Fk6CaaaqI_q6Hl3_gKO7d4QjUypuTas6BLmecJf1oUIfWs-is4-YBWThuY3QK_pnxa6_muyoqBhPo7iVAi3maodVgpIS21xVLzMseHb7fXfrBuvsTSrKeGE8EGrWoEVh0KeTk1NAnG3Jpe0KpuF8hFdUPcPenSn20" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=1639</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/5k-CiA0eNfCjQXEP6_unP3zi29Fk6CaaaqI_q6Hl3_gKO7d4QjUypuTas6BLmecJf1oUIfWs-is4-YBWThuY3QK_pnxa6_muyoqBhPo7iVAi3maodVgpIS21xVLzMseHb7fXfrBuvsTSrKeGE8EGrWoEVh0KeTk1NAnG3Jpe0KpuF8hFdUPcPenSn20</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3391974,48.8524361,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-1051 : 22 rue Dauphine
+</name>
+        <description>http://monsieurchat.free.fr/Public/Resultat.php?type_recherche=ville&amp;param1=3&amp;param2=2&amp;param3=7&amp;param4=%25&amp;affiche=2819&amp;vignette=&amp;Prem_spot=0</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <Point>
+          <coordinates>
+            2.339589,48.8551875,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-1059 : Seine et Buci</name>
+        <description>&lt;img src="https://lh6.googleusercontent.com/proxy/d7lcfVJje8yQoPglUvpn5ruixe3M0kZzrfYbnc-NZZMqe8cNL-5JCu7QN8PSPrkyERdPR_Qzf8R_2DLdz4u1K2zG_YBZ_xh9ViqceTo18nR5qX-fEyOLHDinMuTVLexDNlzGq1PxYOCftBJVg7Szt6RhwJP_Op_lWUSK9SYDX3A0" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;ID-1244 (was 042) now a star http://monsieurchat.free.fr/Public/Resultat.php?affiche=1244</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/d7lcfVJje8yQoPglUvpn5ruixe3M0kZzrfYbnc-NZZMqe8cNL-5JCu7QN8PSPrkyERdPR_Qzf8R_2DLdz4u1K2zG_YBZ_xh9ViqceTo18nR5qX-fEyOLHDinMuTVLexDNlzGq1PxYOCftBJVg7Szt6RhwJP_Op_lWUSK9SYDX3A0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3368612,48.8538974,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-092 : 8 rue de la Ferronnerie</name>
+        <description>&lt;img src="https://lh6.googleusercontent.com/proxy/ZmO2lt7Q7fqWD248jAx-rx1J5oqGoiTxnjaKD7lmW233Iij5kqXSqaBOFgcN6c2QpvpAStFy7y5_mcc0S3vbnkdX476lo8fseb7x-WaAlM9umUIre5eZie6bwQ3T20S-JQxr4M0VcGw5Pw-1SqGoXn0s-0wShme27oeIxivsmw" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=56</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/ZmO2lt7Q7fqWD248jAx-rx1J5oqGoiTxnjaKD7lmW233Iij5kqXSqaBOFgcN6c2QpvpAStFy7y5_mcc0S3vbnkdX476lo8fseb7x-WaAlM9umUIre5eZie6bwQ3T20S-JQxr4M0VcGw5Pw-1SqGoXn0s-0wShme27oeIxivsmw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3473527,48.8603219,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-143 : Place du Chatelet</name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/proxy/XeFCzo4ErLp3Yoeu69lNC_wPdLWAQu6EPsUrbZDDAp4ggIgqSdWtGilcvXvs2D6Am4o4xDKyIW2dAX3KWzvQDdo9fFVVgpPBHGk29fS_BKMmUGfbIMpWGhl8wEkStq6hXZ3MQK9ZYmqUX4YA4Jb8XMzd-gYCw7zyZka4DiwsLfmSOdMCMW08" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=32</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/XeFCzo4ErLp3Yoeu69lNC_wPdLWAQu6EPsUrbZDDAp4ggIgqSdWtGilcvXvs2D6Am4o4xDKyIW2dAX3KWzvQDdo9fFVVgpPBHGk29fS_BKMmUGfbIMpWGhl8wEkStq6hXZ3MQK9ZYmqUX4YA4Jb8XMzd-gYCw7zyZka4DiwsLfmSOdMCMW08</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3472789,48.8575011,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-177 : 11 rue du 29 juillet</name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/proxy/YdWA9UCG7u0cvycK7oUq2bVvedWUlYxGrbZoVTk04MpjQX753Z3K6_zUho1YXa-X7XlR6z2y0vWX2Y0s3PYbPxmWs4BQ3TZ4WNA1QTSle6OL9RbmVRB7PvZW0OhKMV87iuY208rA_43iJZbogQxHcBaKEM7f9PcAGghUrTrTubw" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=238</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/YdWA9UCG7u0cvycK7oUq2bVvedWUlYxGrbZoVTk04MpjQX753Z3K6_zUho1YXa-X7XlR6z2y0vWX2Y0s3PYbPxmWs4BQ3TZ4WNA1QTSle6OL9RbmVRB7PvZW0OhKMV87iuY208rA_43iJZbogQxHcBaKEM7f9PcAGghUrTrTubw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3308235,48.8654241,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-295 : 4 rue du Jour</name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/proxy/nYB2vrdUGhn-IW4qqW7VcN3hXeBTDugYw5drx8UNgEeQiUwKJI4aGX-IHXFZzOqHitKSUgGiRaw_L-vsfun-gELImy3efJyiGw-dBqNrbHKOo_7Cp0ZzXmYkVEnZHnStvSqVxM3T4jN-dY1B8OH2yBTd655hAoVpCXQyxZWMbg" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=381</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/nYB2vrdUGhn-IW4qqW7VcN3hXeBTDugYw5drx8UNgEeQiUwKJI4aGX-IHXFZzOqHitKSUgGiRaw_L-vsfun-gELImy3efJyiGw-dBqNrbHKOo_7Cp0ZzXmYkVEnZHnStvSqVxM3T4jN-dY1B8OH2yBTd655hAoVpCXQyxZWMbg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3444545,48.8635908,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-355 : 4 Grande Truanderie</name>
+        <description>&lt;img src="https://lh5.googleusercontent.com/proxy/V6Q7Q4HFahgR1XWbgvN9bO2EbDJdm_RFOMcypO6v2eSTsaVBNKNrqZ816mGVlNREVfX4xI0twZtN5eJNJUl7bdVkOVtLQ9vRSwtxbeSz34s8LFhflTDx7j2Nc4xfK8-8J9mhZNvnoQRsE8GFRkPa3TcMkGMgHuD9d566qSCq0Q" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=157</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/V6Q7Q4HFahgR1XWbgvN9bO2EbDJdm_RFOMcypO6v2eSTsaVBNKNrqZ816mGVlNREVfX4xI0twZtN5eJNJUl7bdVkOVtLQ9vRSwtxbeSz34s8LFhflTDx7j2Nc4xfK8-8J9mhZNvnoQRsE8GFRkPa3TcMkGMgHuD9d566qSCq0Q</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3496178,48.8626732,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-359: 45 rue St Roch</name>
+        <description>&lt;img src="https://lh6.googleusercontent.com/proxy/NluIOpT4SBqJgd608YOYXnqahNHLHku1LzU1WGHkTkjMwo2JREOHHrXavATKa1t5_Qxe2KlI7gtkRTa_nNIXqzAnz1UBPm373TQ4Ww-h93r6MaOmuB5ri8W7eLDeQsxfrDEPv2XWaU5yPwdpNG0LeLTx6pazSR5v2MuLKZrVb7OLU5dWqiY75D9BPJ4" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=862</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/NluIOpT4SBqJgd608YOYXnqahNHLHku1LzU1WGHkTkjMwo2JREOHHrXavATKa1t5_Qxe2KlI7gtkRTa_nNIXqzAnz1UBPm373TQ4Ww-h93r6MaOmuB5ri8W7eLDeQsxfrDEPv2XWaU5yPwdpNG0LeLTx6pazSR5v2MuLKZrVb7OLU5dWqiY75D9BPJ4</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3329371,48.8665533,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-360 : Rivoli en face Saint Roch</name>
+        <description>&lt;img src="https://lh4.googleusercontent.com/proxy/ZrrpKzs0un2MwALwJiZy1s0PqDmODTXKhZvj9pz4b7fDlzO38a0D5XBV0xWJl_uqGdku2t1pQBtPl-DbnXmOijjzmd5wjFZ9SZUG74GHMXjOSXLZG3ZNXho6_CX1Cakz5SLWmPrjpk4EK428ekSYCHGLUeXFASq-zz3ljtF8nExECpZIaij5" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=54</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/ZrrpKzs0un2MwALwJiZy1s0PqDmODTXKhZvj9pz4b7fDlzO38a0D5XBV0xWJl_uqGdku2t1pQBtPl-DbnXmOijjzmd5wjFZ9SZUG74GHMXjOSXLZG3ZNXho6_CX1Cakz5SLWmPrjpk4EK428ekSYCHGLUeXFASq-zz3ljtF8nExECpZIaij5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3313117,48.8639596,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-394 : Pont Saint Michel</name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/proxy/5J1qDreGYheRZ_AWCF9NU4syu5l7KOsgRN71vkyu1g_SchzHV_pfgRPV2ueiAqK_6OhBgF9sg-nfQvKQoiscQdWnwoh2CxZdlcag2AIf9jwnHuZjni00vVSH0qxTqdd4mWi5wmV3OaCSK2rwP2WQaEOHgPzuO_AP4WO4LLKfukWAtSBsF9c_oufuxR4M" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=22</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/5J1qDreGYheRZ_AWCF9NU4syu5l7KOsgRN71vkyu1g_SchzHV_pfgRPV2ueiAqK_6OhBgF9sg-nfQvKQoiscQdWnwoh2CxZdlcag2AIf9jwnHuZjni00vVSH0qxTqdd4mWi5wmV3OaCSK2rwP2WQaEOHgPzuO_AP4WO4LLKfukWAtSBsF9c_oufuxR4M</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.344712,48.8543386,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-479 &amp; RV2011 : rue des Halles</name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/proxy/XNnUvdUR4gR2u9_3PGl44B7fVf-Juu_KY48RfHBgNbKp8fnoftEm263hA4H57yYU5XSeiNHgSvK_k8w1k0Bnhb6jfzpsszNrP_-zT4ldaG96G00t7ognZ6EW9dunqvQ1R467-xCMsKZB1QhXltzjUjhqgYjBX7UFTxjhwV0ezkTFS15N58IUzhzHjMw" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;Dead &amp; replaced http://monsieurchat.free.fr/Public/Resultat.php?affiche=871</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/XNnUvdUR4gR2u9_3PGl44B7fVf-Juu_KY48RfHBgNbKp8fnoftEm263hA4H57yYU5XSeiNHgSvK_k8w1k0Bnhb6jfzpsszNrP_-zT4ldaG96G00t7ognZ6EW9dunqvQ1R467-xCMsKZB1QhXltzjUjhqgYjBX7UFTxjhwV0ezkTFS15N58IUzhzHjMw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3470254,48.8593964,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-563 : Place du Palais Royal</name>
+        <description>&lt;img src="https://lh4.googleusercontent.com/proxy/A6vZDKJsW04FxRjmR_dRuq6S1knXl0Vs1VAt_0yA-kDzPbmMUe2MTKDhxdoyhnxYIOd5_rr0uf3Trjgl2f7dHDMFXUUl3a_uzYQ4dEYaVKRXdvS2sIf-vZ7TFRoI8tSwPi-L7SUwMUItP8VQNIYp247iJMCZjJARkNmmYy4AXA" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=357</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/A6vZDKJsW04FxRjmR_dRuq6S1knXl0Vs1VAt_0yA-kDzPbmMUe2MTKDhxdoyhnxYIOd5_rr0uf3Trjgl2f7dHDMFXUUl3a_uzYQ4dEYaVKRXdvS2sIf-vZ7TFRoI8tSwPi-L7SUwMUItP8VQNIYp247iJMCZjJARkNmmYy4AXA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3371267,48.8622356,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-576 : Guichets de Louvre</name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/proxy/q8cy24Yr0G19pFIyMIH96qP2X_z2iUnYpYzNTbHRpNkNIU9m9Mzl5W_jPIeBSwiFPhYq3c64CXugGEBo8jyI1cwYnLBUqxDZBLsNXSp_K0fy1uveXjFrjcJio8dkHMXFVEiTcap5vfNazYpqMk4YRZd88EuHW2JWfsEM2X0-BuDFmnks6t8DvJs6z5k" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=861</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/q8cy24Yr0G19pFIyMIH96qP2X_z2iUnYpYzNTbHRpNkNIU9m9Mzl5W_jPIeBSwiFPhYq3c64CXugGEBo8jyI1cwYnLBUqxDZBLsNXSp_K0fy1uveXjFrjcJio8dkHMXFVEiTcap5vfNazYpqMk4YRZd88EuHW2JWfsEM2X0-BuDFmnks6t8DvJs6z5k</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3351124,48.8624606,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-579 : Guichets du Louvre</name>
+        <description>&lt;img src="https://lh6.googleusercontent.com/proxy/H8hEVxvUlZvsgrMLixGSKUBHX-mUXKbkSfhQ_sclUgUEkqf-7e1LgQ7dAnEyL9C-QS5GEOcPEcC6JVJ5EZTZPIv4h-ozqIel6rCerOuyMiYKj4-kMWtTtBeeoDCSar5r5fGWJV5BkFa0ND204AizBSNsIgCwQfLOuAN8PQcMJoryURHTnZp5WbF_0w" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=861</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/H8hEVxvUlZvsgrMLixGSKUBHX-mUXKbkSfhQ_sclUgUEkqf-7e1LgQ7dAnEyL9C-QS5GEOcPEcC6JVJ5EZTZPIv4h-ozqIel6rCerOuyMiYKj4-kMWtTtBeeoDCSar5r5fGWJV5BkFa0ND204AizBSNsIgCwQfLOuAN8PQcMJoryURHTnZp5WbF_0w</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3349944,48.862495,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-582 : Rue Villedo</name>
+        <description>&lt;img src="https://lh6.googleusercontent.com/proxy/oZmW6YIEmZrwjHnZLHIR2cKm8tXoAd0WhhNvai54SpCOFdN9BMacDdAR7SnqGo7DZfl3evLrVMiaaGC03IqVeY3IdSdDxy8mbWxpbGJp4q2p0Re_TDEeRdvGLMWFTBTjyIf7wJX3KA4oQb_rHrhd5ciX1LLHsW2mCZntMG2Y4VQj0OKYIEAMpcCqzQ" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=876</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/oZmW6YIEmZrwjHnZLHIR2cKm8tXoAd0WhhNvai54SpCOFdN9BMacDdAR7SnqGo7DZfl3evLrVMiaaGC03IqVeY3IdSdDxy8mbWxpbGJp4q2p0Re_TDEeRdvGLMWFTBTjyIf7wJX3KA4oQb_rHrhd5ciX1LLHsW2mCZntMG2Y4VQj0OKYIEAMpcCqzQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3357226,48.8665877,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-590 : Etienne Marcel et Pierre Lescot</name>
+        <description>&lt;img src="https://lh4.googleusercontent.com/proxy/2oDc0zEt3xtZBYN5sPAauSOTGi3Flg9_MiljZ2w7MnDFLJ3hMtxcJUmn4gqwDQv1jRxke26eQzLuUuCvo5kk2d-2Xf5WJhagqXzC9wqgEl9w-nGAeDd89rv334V3OE03ZB6_BpO8w1x8Jt27NuBXo1btqaXGK_0HIH05CtNC4Q" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=380</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/2oDc0zEt3xtZBYN5sPAauSOTGi3Flg9_MiljZ2w7MnDFLJ3hMtxcJUmn4gqwDQv1jRxke26eQzLuUuCvo5kk2d-2Xf5WJhagqXzC9wqgEl9w-nGAeDd89rv334V3OE03ZB6_BpO8w1x8Jt27NuBXo1btqaXGK_0HIH05CtNC4Q</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3494166,48.8636975,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-720 : Sainte Opportune et Ferronnerie</name>
+        <description>&lt;img src="https://lh4.googleusercontent.com/proxy/hHHf2F-QooJYjC2pXmayAIKNCQbGnAOZoFhCqjudPY8BGt2pZMc7ULhISYgH73Dw7bPlFDLDXCyGEOIJW7zg-c9faGw6BK7v0YV8vlCDNRQ" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=781</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/hHHf2F-QooJYjC2pXmayAIKNCQbGnAOZoFhCqjudPY8BGt2pZMc7ULhISYgH73Dw7bPlFDLDXCyGEOIJW7zg-c9faGw6BK7v0YV8vlCDNRQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3475055,48.8602461,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-819 : Arbre Sec et Bailleul</name>
+        <description>&lt;img src="https://lh4.googleusercontent.com/proxy/E_wVLyA-jHKdTOVmNGiaWDfG9txSrO13z6kXn5MM5VPLazUhqg-Pe0ns6LFDLTnn9EH0dMubys_iAKkwqW4ucbkUVj1Bxfybodl3z40OqXGur8ky_7df5n2nzYp-ntNnsdnjuTggida4DDTxEB0lyZt3VdKEtG50FBG9lQlBQTmvjPzL5q80Ie19QUs" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=1857</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/E_wVLyA-jHKdTOVmNGiaWDfG9txSrO13z6kXn5MM5VPLazUhqg-Pe0ns6LFDLTnn9EH0dMubys_iAKkwqW4ucbkUVj1Bxfybodl3z40OqXGur8ky_7df5n2nzYp-ntNnsdnjuTggida4DDTxEB0lyZt3VdKEtG50FBG9lQlBQTmvjPzL5q80Ie19QUs</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3424214,48.8609034,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-843 : Rivoli et Cambon</name>
+        <description>&lt;img src="https://lh5.googleusercontent.com/proxy/CPy7LQ6yu70M5Bu8z-ljJGoDoXYrmuBUyIhjZqn9GBUwYS8sL4eFxLkP1cYtKP6qePEpVV0T0qGLjrXihhBHo6MSAQ_uZF_gB48F9Wv-UOQHRg" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;https://www.flickr.com/photos/95508868@N03/9536572647/</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/CPy7LQ6yu70M5Bu8z-ljJGoDoXYrmuBUyIhjZqn9GBUwYS8sL4eFxLkP1cYtKP6qePEpVV0T0qGLjrXihhBHo6MSAQ_uZF_gB48F9Wv-UOQHRg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3251051,48.8660875,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-860 &amp; PA-??? : Rivoli et Oratoire</name>
+        <description>&lt;img src="https://lh5.googleusercontent.com/proxy/EAtWL36PTx5Uw-7OZJx34JQ5fIYigX3DG2j0h2Yq71XOjLAg8BcIk936swNLdlBfNZyGosFtCEtVVRfHIZPz6eUmAbMrV6r0y4Sisk2LYKb8hS4tWbE4Xe4mNOll80H7AMdu69eZC1n8vZGCkxPzApsAx84IrYi4-N7ZY6VExT4bMRJnm96JM5apTOM" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?type_recherche=ville&amp;affiche=1952</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/EAtWL36PTx5Uw-7OZJx34JQ5fIYigX3DG2j0h2Yq71XOjLAg8BcIk936swNLdlBfNZyGosFtCEtVVRfHIZPz6eUmAbMrV6r0y4Sisk2LYKb8hS4tWbE4Xe4mNOll80H7AMdu69eZC1n8vZGCkxPzApsAx84IrYi4-N7ZY6VExT4bMRJnm96JM5apTOM</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3398143,48.8613234,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-893 : St Honoré &amp; Pyramides</name>
+        <description>&lt;img src="https://lh6.googleusercontent.com/proxy/4OdUk47ief62pYykPbWuLt6YvmQctdiPZoyoFpq8eMJcmI3Xl2JblDeSeII45r8j1rQD14eV4H3D1UqbEMI-ml8Nq3u5i_YCWU6gHV98Mudwtu8IV9Qz9JZgerXbmCVsnNPXHe5p9-eNRPBzK6pr4HSvgp9QW3rSSV-15xvwPLWYIUFsDZfqa6zFBU8" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=2207</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/4OdUk47ief62pYykPbWuLt6YvmQctdiPZoyoFpq8eMJcmI3Xl2JblDeSeII45r8j1rQD14eV4H3D1UqbEMI-ml8Nq3u5i_YCWU6gHV98Mudwtu8IV9Qz9JZgerXbmCVsnNPXHe5p9-eNRPBzK6pr4HSvgp9QW3rSSV-15xvwPLWYIUFsDZfqa6zFBU8</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3327172,48.864503,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-978 : 28 Rue Montorgueil</name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/proxy/6Z-8FWe8wRmeyXdD4LiS3XPG97JiRJGCw5cNw0ThCCtDf5eBETLhsVBLbNwXLFlm2vjzzk_syrQV93a1qmpR0z9gEkbTobdD9kopyf_cqmIdXwIem971n4WvxyI8yvcTPZCVymeny2-wROjQVQIhN2b01Dujzhx2lp96LhYX2kVOZkIjcI5ab3gDfU4" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=2521</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/6Z-8FWe8wRmeyXdD4LiS3XPG97JiRJGCw5cNw0ThCCtDf5eBETLhsVBLbNwXLFlm2vjzzk_syrQV93a1qmpR0z9gEkbTobdD9kopyf_cqmIdXwIem971n4WvxyI8yvcTPZCVymeny2-wROjQVQIhN2b01Dujzhx2lp96LhYX2kVOZkIjcI5ab3gDfU4</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3464876,48.8637161,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-1034 : 48 rue St Honoré</name>
+        <description>&lt;img src="https://lh5.googleusercontent.com/proxy/sT6LvB_XQBenaoclO1p9LLIbzYWGW_DNTWTt8c1OrXnf7b0E7yZMk9X8L-H01N1HiZr8cr953QimsxjnmEw5n4m-WB60dmOd83Uq3h3nSSQ1tIcsoFFDyfCaOIKDJkfEE4vkdHPyexRtAenci1s71fw2HzcOpBMKycUh8HC7fZSdRZprJQBT27670g" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?type_recherche=ville&amp;affiche=2712</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/sT6LvB_XQBenaoclO1p9LLIbzYWGW_DNTWTt8c1OrXnf7b0E7yZMk9X8L-H01N1HiZr8cr953QimsxjnmEw5n4m-WB60dmOd83Uq3h3nSSQ1tIcsoFFDyfCaOIKDJkfEE4vkdHPyexRtAenci1s71fw2HzcOpBMKycUh8HC7fZSdRZprJQBT27670g</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3442091,48.8612254,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-1040 : 47 rue Saint Roch</name>
+        <description>&lt;img src="https://lh6.googleusercontent.com/proxy/vWdXG19K5uZ73Z_IwWBRBqxoz6j2bUoqDzOLsGUH4VzUKb7oJq0WJfbWCX3u1OlaCpWS3lYjdwCLFq1VyhEVIc5d1aGDNr__n55ccEKkD_d-hRaO1ov0dnHwLBdW-_P_wo6n5oRovfjSNeyEfDbt58Riy-xS6KMGNMd1ZtXv_xk" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=2783</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/vWdXG19K5uZ73Z_IwWBRBqxoz6j2bUoqDzOLsGUH4VzUKb7oJq0WJfbWCX3u1OlaCpWS3lYjdwCLFq1VyhEVIc5d1aGDNr__n55ccEKkD_d-hRaO1ov0dnHwLBdW-_P_wo6n5oRovfjSNeyEfDbt58Riy-xS6KMGNMd1ZtXv_xk</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3330846,48.8664986,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-240 &amp; PA-??? (Kit) : Gare de Lyon</name>
+        <description>&lt;img src="https://lh5.googleusercontent.com/proxy/0VNVsRhxdDH8WnAWAoHAgomH7uu4WACozOPumGocxGsYzJGuuroISc5Btkzmy0nYGZVNnNejewpWF26J_Xa-w-Be3FpcrpaQtHlUHI7J2eapbiA" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=166</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/0VNVsRhxdDH8WnAWAoHAgomH7uu4WACozOPumGocxGsYzJGuuroISc5Btkzmy0nYGZVNnNejewpWF26J_Xa-w-Be3FpcrpaQtHlUHI7J2eapbiA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.373873,48.8457714,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-921 : Pont Bercy Cote 12e</name>
+        <description>&lt;img src="https://lh4.googleusercontent.com/proxy/fEVHUZ_QvB5357PcltHeqCe0JpW4rdTCn6dux6cmXM4QU_Zjg2yJUEoUJI25GiZYhGIPtmOx61LdlguzU_4VjRAWmZ75LMmOLjctVpxONnLHUTfsK_Kvc-nEJninXgoEeUx2YfJHGKVRNHZa9WuXIo2l0-CmToNfVl8C6eak1qy74qAx6JbiD8WbRug" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=2196</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/fEVHUZ_QvB5357PcltHeqCe0JpW4rdTCn6dux6cmXM4QU_Zjg2yJUEoUJI25GiZYhGIPtmOx61LdlguzU_4VjRAWmZ75LMmOLjctVpxONnLHUTfsK_Kvc-nEJninXgoEeUx2YfJHGKVRNHZa9WuXIo2l0-CmToNfVl8C6eak1qy74qAx6JbiD8WbRug</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3757371,48.8385921,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-800 : Louvre et d’Argout
+</name>
+        <description>&lt;img src="https://lh4.googleusercontent.com/proxy/tnVAhTsRN0Q7IozaX2_RmRhbBJqkbKHH72Bofpby8PMK2s_sMTIEDaEJKbEXIK-XRShooNl9Zkw9SMvdT6rH7AeHQkBOzFMLb61kbhX0FYlde7gftN7cStkmG6bEqFMJnZ_MYvj3tJja6YHbwXryNblyxkuMxVGHbyanqtMdd26kFq1E5dmSmIhesrI" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=1678</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/tnVAhTsRN0Q7IozaX2_RmRhbBJqkbKHH72Bofpby8PMK2s_sMTIEDaEJKbEXIK-XRShooNl9Zkw9SMvdT6rH7AeHQkBOzFMLb61kbhX0FYlde7gftN7cStkmG6bEqFMJnZ_MYvj3tJja6YHbwXryNblyxkuMxVGHbyanqtMdd26kFq1E5dmSmIhesrI</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3434809,48.8658387,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-022 : 68bis, rue de Turenne
+</name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/proxy/rM3H-Y6aV_XvAxK0Z_1_bUEYOVj9VW5y18jM7PlvtkyDx9p4Vyk1r0xeVdyKKGWArlP-wAq1rqNgujcQcvTj7do4a6c4_Osq" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=359</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/rM3H-Y6aV_XvAxK0Z_1_bUEYOVj9VW5y18jM7PlvtkyDx9p4Vyk1r0xeVdyKKGWArlP-wAq1rqNgujcQcvTj7do4a6c4_Osq</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3646006,48.8598781,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-585 : Beaubourg et Rambuteau </name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/proxy/2_zb-xS51UTSU4qQdigGV7sUQqYNwuov46BvquN7c271vHCd5e-ge78Q_rUm0gKghwC1aoGjWbQ_arkLMZacOyVgObJ1JvD2Wm5278j5u7clEcXa_q-yHH8gVivm1ggpmGyGn8HNzXcwuT4y1aBFG9IV9Z6PbRWTKU-bxBplHg" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=313 et http://flickrhivemind.net/Tags/pa585/Interesting</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/2_zb-xS51UTSU4qQdigGV7sUQqYNwuov46BvquN7c271vHCd5e-ge78Q_rUm0gKghwC1aoGjWbQ_arkLMZacOyVgObJ1JvD2Wm5278j5u7clEcXa_q-yHH8gVivm1ggpmGyGn8HNzXcwuT4y1aBFG9IV9Z6PbRWTKU-bxBplHg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3533756,48.8613622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-722 : 11 rue Michel Lecomte</name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/proxy/oSVigLvK4yeeC7GqPiJgCaEgFKNYeU01HK5ksL7jyXLT-OT8lU9zZPrQcj0AET5ASiEsepIQvw5nILD-1bGKWcw5pqs8GJU_" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=885</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/oSVigLvK4yeeC7GqPiJgCaEgFKNYeU01HK5ksL7jyXLT-OT8lU9zZPrQcj0AET5ASiEsepIQvw5nILD-1bGKWcw5pqs8GJU_</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3561798,48.8621342,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-953 : 9 rue du Plâtre
+</name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/proxy/e-X80vHRzAdRgwkdLwrJsau54lcnvHH4wpWstEmBWFzHAwSJruuvvt2PgVYpgHuS0sI4ya6mKnt3IohzKOY9emHfMgzJ7tYJhi3H0qHXlFF0xg" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=2389 et http://flickrhivemind.net/Tags/pa953/Interesting</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/e-X80vHRzAdRgwkdLwrJsau54lcnvHH4wpWstEmBWFzHAwSJruuvvt2PgVYpgHuS0sI4ya6mKnt3IohzKOY9emHfMgzJ7tYJhi3H0qHXlFF0xg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3547341,48.8592623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-157 : 10 Rue Clovis</name>
+        <description>&lt;img src="https://lh4.googleusercontent.com/proxy/CSRJnmVMEfbMWRSuyv9XTexsGmHdhjSsxuk-N7vNcypi6VzwA8lKcwcKMInUQ0KJ_mHhPY4KXm_PuBrxhFLBvW-zJtKO2B7H" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://www.lespetitesrenault.fr/sigt/75005/75005.htm "Le PA 157 existe toujours, je l'ai flashé il n'y a pas longtemps. Il était caché sous le lierre, et il vient d'être coupé." me dit un fan...</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/CSRJnmVMEfbMWRSuyv9XTexsGmHdhjSsxuk-N7vNcypi6VzwA8lKcwcKMInUQ0KJ_mHhPY4KXm_PuBrxhFLBvW-zJtKO2B7H</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.348671,48.8462719,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-100 : 79 Quai de Valmy
+</name>
+        <description>&lt;img src="https://lh5.googleusercontent.com/proxy/sohZ9VWh3yk0pW9vTHSd9f-0gEq7WL2N55oSeQFCkIs2_Di0u5ycn6oylSWt_rP6UV3Cw0nbYCsRt0F3a3UI4NQXQNMPPZwGbIvNZDQ_Pv4p_6d99ulb2kcFfIRBg33LY-j6AG2VLIejiRVWErR8KzIZVekrumCi1ozaQNNgy0zsL8HORKKI_AktCEoO" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=823 et http://flickrhivemind.net/Tags/pa100/Interesting</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/sohZ9VWh3yk0pW9vTHSd9f-0gEq7WL2N55oSeQFCkIs2_Di0u5ycn6oylSWt_rP6UV3Cw0nbYCsRt0F3a3UI4NQXQNMPPZwGbIvNZDQ_Pv4p_6d99ulb2kcFfIRBg33LY-j6AG2VLIejiRVWErR8KzIZVekrumCi1ozaQNNgy0zsL8HORKKI_AktCEoO</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3640407,48.8723728,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-430 : 82 quai de Jemmapes</name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/proxy/qBjbJm0LKcWH3TR5Hj_-iE5TY5nFAyVra99AGpM9fUIFFsftBJeCl2gfZHRjZuJda2nFqRrheH-T1PSwjQsz6Xg8I8GseyOO1VJjpk8fgg" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://flickrhivemind.net/Tags/pa430/Interesting et http://monsieurchat.free.fr/Public/Resultat.php?affiche=135</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/qBjbJm0LKcWH3TR5Hj_-iE5TY5nFAyVra99AGpM9fUIFFsftBJeCl2gfZHRjZuJda2nFqRrheH-T1PSwjQsz6Xg8I8GseyOO1VJjpk8fgg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3651397,48.8721708,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-448 : 80 quai de Jemmapes
+</name>
+        <description>&lt;img src="https://lh4.googleusercontent.com/proxy/tgQwsGdSjThUQGdvFIRPGhCTywCIu2fevT94oJx7-4M464KsLN1TUY001D_7bjwroghc6KmwlARdJwlHKUuzV3d6YP5hs6dIst0_dUuwhg" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://flickrhivemind.net/Tags/pa448/Interesting et http://monsieurchat.free.fr/Public/Resultat.php?affiche=135</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/tgQwsGdSjThUQGdvFIRPGhCTywCIu2fevT94oJx7-4M464KsLN1TUY001D_7bjwroghc6KmwlARdJwlHKUuzV3d6YP5hs6dIst0_dUuwhg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3651773,48.8721355,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-549 : rue des Vinaigriers et boulevard de Magenta
+</name>
+        <description>&lt;img src="https://lh4.googleusercontent.com/proxy/WCu30T6KHVvS_XJ2mo5L8rmq4RaqTLUYjdISZ1Hcn12dMMWGyTAWyQkp1EPYJjKCadBH2wsCYYwnwW3a55eyniBul97G2OAnEKtkMaPcM_eFRg" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://flickrhivemind.net/Tags/pa549/Interesting et http://monsieurchat.free.fr/Public/Resultat.php?affiche=360</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/WCu30T6KHVvS_XJ2mo5L8rmq4RaqTLUYjdISZ1Hcn12dMMWGyTAWyQkp1EPYJjKCadBH2wsCYYwnwW3a55eyniBul97G2OAnEKtkMaPcM_eFRg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3589814,48.8733246,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-853 : Rue de la Grange aux Belles et rue Bichat</name>
+        <description>&lt;img src="https://lh6.googleusercontent.com/proxy/hL1-OUFwHl3Kcagn7tf-nerKSFjzU_VFXF215NkkCiJVU6H7jOtm0EAC-o2a6FPpWbGMoEp5dThwnZ7qMQeh6rkKEKzU3sJ3iOL7WGRtNz8aWoyjC4LVBq9e2t2K1nWPnBhourftfX2h1JXacg4ScixpxX2pgx2LsxX1_XWVppughUA70edThERe_Mg" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://flickrhivemind.net/Tags/pa853/Interesting et http://monsieurchat.free.fr/Public/Resultat.php?affiche=1973&lt;br&gt;&lt;br&gt;&lt;img src="https://lh3.googleusercontent.com/proxy/bt-MNLvIXFu36NNqya8lbnk-Zggk6y9YCGt4Z5YjJZHXOeBUrpZDOseJipSlKKea46m3DGEfRaNGEf_7RA1u_UJxYiQ_eSNY" height="200" width="auto" /&gt;</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/hL1-OUFwHl3Kcagn7tf-nerKSFjzU_VFXF215NkkCiJVU6H7jOtm0EAC-o2a6FPpWbGMoEp5dThwnZ7qMQeh6rkKEKzU3sJ3iOL7WGRtNz8aWoyjC4LVBq9e2t2K1nWPnBhourftfX2h1JXacg4ScixpxX2pgx2LsxX1_XWVppughUA70edThERe_Mg https://lh3.googleusercontent.com/proxy/bt-MNLvIXFu36NNqya8lbnk-Zggk6y9YCGt4Z5YjJZHXOeBUrpZDOseJipSlKKea46m3DGEfRaNGEf_7RA1u_UJxYiQ_eSNY</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3651075,48.8737057,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-870 : 36 rue Beaurepaire, intersection quai de Jemmapes
+PA-869 dessous
+</name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/proxy/iE7YzAphEl3Is-x-PzahkAQLHAL32K6S5x18mLJ9XcQKWkCoincszYldFLAOcTziMzrKn4UyIjMeEc1mu2wm5JjEwF6PJvKNqa6IJ5S3W97d5A" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://flickrhivemind.net/Tags/pa870/Interesting et http://monsieurchat.free.fr/Public/Resultat.php?affiche=2020</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/iE7YzAphEl3Is-x-PzahkAQLHAL32K6S5x18mLJ9XcQKWkCoincszYldFLAOcTziMzrKn4UyIjMeEc1mu2wm5JjEwF6PJvKNqa6IJ5S3W97d5A</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3644638,48.8717015,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-882 : 28 Rue du Faubourg du Temple &amp; 29 Bd Jules ferry</name>
+        <description>&lt;img src="https://lh4.googleusercontent.com/proxy/gX-eDrNst7ZleL57p35w9K0R1T6Y6Cp6uh4K8yUwPJHmeRVhXwGPASPFj7qcM3ffDLVdjRnOCvumbyBhrW-RyFlUd25-ObDsat1bb7_y_S_LFQ" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://flickrhivemind.net/Tags/pa882/Interesting et http://monsieurchat.free.fr/Public/Resultat.php?affiche=2167</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/gX-eDrNst7ZleL57p35w9K0R1T6Y6Cp6uh4K8yUwPJHmeRVhXwGPASPFj7qcM3ffDLVdjRnOCvumbyBhrW-RyFlUd25-ObDsat1bb7_y_S_LFQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3669663,48.8686096,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-543 : Duchefdelaville - Chevaleret</name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/proxy/64ZkrhL6niirJ9k-AG9KLTMMD3EZ1DJWtlA-tTLI8RQHX0ol9WubKFCdN_SRqk-CCJMGArFBnx3pj_foTHDz7klyH2uVqknqiAZHHrdZ58isIYUwAdxe28N3aV7aouh9qeBReWcVXqCepTv-82-lDHVM0Snucf8ksYo5qhSPiqA6f5ojHpH-4c6WIA" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=541</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/64ZkrhL6niirJ9k-AG9KLTMMD3EZ1DJWtlA-tTLI8RQHX0ol9WubKFCdN_SRqk-CCJMGArFBnx3pj_foTHDz7klyH2uVqknqiAZHHrdZ58isIYUwAdxe28N3aV7aouh9qeBReWcVXqCepTv-82-lDHVM0Snucf8ksYo5qhSPiqA6f5ojHpH-4c6WIA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3709333,48.8326477,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-057 &amp; PA-460: 38 Louise Weiss</name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/proxy/axNLc9nx_ldQy6V6C0avbAx7AYcvh8xdRjS0ccffAMmovKtid2TXahAWys77AzGqmGyKPLzU_G82uNpPuKvJtLJHU7fAtdZ9790tSOV4Zrl6xcbSoQcCdbMVpDR0v08587ANrjZWDOqsu4skYF9ytDhuU6NxZ3WbtPEB-hgQ4sP6VGk2YBXch4pXM-s" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=864</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/axNLc9nx_ldQy6V6C0avbAx7AYcvh8xdRjS0ccffAMmovKtid2TXahAWys77AzGqmGyKPLzU_G82uNpPuKvJtLJHU7fAtdZ9790tSOV4Zrl6xcbSoQcCdbMVpDR0v08587ANrjZWDOqsu4skYF9ytDhuU6NxZ3WbtPEB-hgQ4sP6VGk2YBXch4pXM-s</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3696566,48.8343957,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-036 - Pilier Metro</name>
+        <description>&lt;img src="https://lh4.googleusercontent.com/proxy/XYDinnnkxFIt1FU-3fHuCfuQ26-9RjGd1TGwZAN7kIWKuN4JHaxloSuAagmx--SJenspYkRcTCu0cyUUIZmSSoWsNEr5oForxLHGAuaZJj9gdoMLZ6Wagz-Xx-BF3rh0PwlnFaaoqOVK6pW-cLc2UU8vCJCwcSqVeMsS6U40vg" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=95</description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/XYDinnnkxFIt1FU-3fHuCfuQ26-9RjGd1TGwZAN7kIWKuN4JHaxloSuAagmx--SJenspYkRcTCu0cyUUIZmSSoWsNEr5oForxLHGAuaZJj9gdoMLZ6Wagz-Xx-BF3rh0PwlnFaaoqOVK6pW-cLc2UU8vCJCwcSqVeMsS6U40vg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3731434,48.8370403,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder></Document>
+</kml>

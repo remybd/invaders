@@ -1,0 +1,1270 @@
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Space Invaders</name>
+    <description>Color guide: Green = seen, Red = dead, Orange: not checked yet... Yellow: reactivated... Squares are recent visits (2017 onwards)&lt;br&gt;&lt;br&gt;star = dead, circle = visited, black = dead and visited, blue = ok&lt;br&gt;&lt;br&gt;</description>
+    <Style id="icon-503-009D57-normal">
+      <IconStyle>
+        <color>ff579d00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels" />
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-009D57-highlight">
+      <IconStyle>
+        <color>ff579d00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels" />
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-009D57">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-009D57-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-009D57-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-F4B400-normal">
+      <IconStyle>
+        <color>ff00b4f4</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels" />
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-F4B400-highlight">
+      <IconStyle>
+        <color>ff00b4f4</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels" />
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-F4B400">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-F4B400-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-F4B400-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-F4EB37-normal">
+      <IconStyle>
+        <color>ff37ebf4</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels" />
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-F4EB37-highlight">
+      <IconStyle>
+        <color>ff37ebf4</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels" />
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-F4EB37">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-F4EB37-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-F4EB37-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-F4EB37-nodesc-normal">
+      <IconStyle>
+        <color>ff37ebf4</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels" />
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-503-F4EB37-nodesc-highlight">
+      <IconStyle>
+        <color>ff37ebf4</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels" />
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-503-F4EB37-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-F4EB37-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-F4EB37-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-F8971B-normal">
+      <IconStyle>
+        <color>ff1b97f8</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels" />
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-F8971B-highlight">
+      <IconStyle>
+        <color>ff1b97f8</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels" />
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-F8971B">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-F8971B-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-F8971B-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-F8971B-nodesc-normal">
+      <IconStyle>
+        <color>ff1b97f8</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels" />
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-503-F8971B-nodesc-highlight">
+      <IconStyle>
+        <color>ff1b97f8</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels" />
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-503-F8971B-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-F8971B-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-F8971B-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-F9F7A6-normal">
+      <IconStyle>
+        <color>ffa6f7f9</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels" />
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-F9F7A6-highlight">
+      <IconStyle>
+        <color>ffa6f7f9</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels" />
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-F9F7A6">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-F9F7A6-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-F9F7A6-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-959-000000-normal">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/959-wht-circle-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-959-000000-highlight">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/959-wht-circle-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-959-000000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-959-000000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-959-000000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-959-3F5BA9-normal">
+      <IconStyle>
+        <color>ffa95b3f</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/959-wht-circle-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-959-3F5BA9-highlight">
+      <IconStyle>
+        <color>ffa95b3f</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/959-wht-circle-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-959-3F5BA9">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-959-3F5BA9-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-959-3F5BA9-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-959-3F5BA9-nodesc-normal">
+      <IconStyle>
+        <color>ffa95b3f</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/959-wht-circle-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-959-3F5BA9-nodesc-highlight">
+      <IconStyle>
+        <color>ffa95b3f</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/959-wht-circle-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-959-3F5BA9-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-959-3F5BA9-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-959-3F5BA9-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-960-000000-normal">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-960-000000-highlight">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-960-000000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-960-000000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-960-000000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-960-000000-nodesc-normal">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-960-000000-nodesc-highlight">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-960-000000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-960-000000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-960-000000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-960-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-960-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-960-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-960-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-960-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-960-DB4436-nodesc-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-960-DB4436-nodesc-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-960-DB4436-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-960-DB4436-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-960-DB4436-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-961-009D57-normal">
+      <IconStyle>
+        <color>ff579d00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/961-wht-square-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-961-009D57-highlight">
+      <IconStyle>
+        <color>ff579d00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/961-wht-square-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-961-009D57">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-961-009D57-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-961-009D57-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-961-F4EB37-normal">
+      <IconStyle>
+        <color>ff37ebf4</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/961-wht-square-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-961-F4EB37-highlight">
+      <IconStyle>
+        <color>ff37ebf4</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/961-wht-square-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-961-F4EB37">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-961-F4EB37-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-961-F4EB37-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-961-F8971B-normal">
+      <IconStyle>
+        <color>ff1b97f8</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/961-wht-square-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-961-F8971B-highlight">
+      <IconStyle>
+        <color>ff1b97f8</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/961-wht-square-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-961-F8971B">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-961-F8971B-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-961-F8971B-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-962-009D57-normal">
+      <IconStyle>
+        <color>ff579d00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/962-wht-diamond-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-962-009D57-highlight">
+      <IconStyle>
+        <color>ff579d00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/962-wht-diamond-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-962-009D57">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-962-009D57-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-962-009D57-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder><name>icon-959-3F5BA9</name><Placemark>
+        <name>PA_1223 : 1 place de Passy
+</name>
+        <description>&lt;img src="https://lh5.googleusercontent.com/proxy/f-ZFUDXfOTicIV4CHLVNaClGRso-9vBsR1fzPvcdZqU_qP1HvCarI-2Rt9oyWa8n6IqQmWxpFT5YU8mnubBXHe_oA07tt0va1pcFX57vm2-l7A" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;img src="https://lh6.googleusercontent.com/proxy/rR5wFIFHPAJ5IErUdIyxSDBMO4h6YiTknKbUYILlE_XrehQ_8h9xNnMKuZ6LeZ1snVQUROT36kJqxqJIK_bieEQ8Akk0FKZX5l1RooPACLdLvg" height="200" width="auto" /&gt;</description>
+        <styleUrl>#icon-961-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/f-ZFUDXfOTicIV4CHLVNaClGRso-9vBsR1fzPvcdZqU_qP1HvCarI-2Rt9oyWa8n6IqQmWxpFT5YU8mnubBXHe_oA07tt0va1pcFX57vm2-l7A https://lh6.googleusercontent.com/proxy/rR5wFIFHPAJ5IErUdIyxSDBMO4h6YiTknKbUYILlE_XrehQ_8h9xNnMKuZ6LeZ1snVQUROT36kJqxqJIK_bieEQ8Akk0FKZX5l1RooPACLdLvg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.2779217,48.8578532,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA_1252 : Poincare et St Didier</name>
+        <description>&lt;img src="https://lh6.googleusercontent.com/HaGbXt1tVYGwxOUbyvvQvMnyv_9RmIiYOtuV8Q4ph0qlzgSnqn9gYeOOLkSwDD7kC5Xt7sAPd19zkhwd9ht9rpJ9bKx69uEEZ9uRPxBF6fF9Fmca9uD7Yvvb7zH29BTvNpKkIg" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;</description>
+        <styleUrl>#icon-961-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/HaGbXt1tVYGwxOUbyvvQvMnyv_9RmIiYOtuV8Q4ph0qlzgSnqn9gYeOOLkSwDD7kC5Xt7sAPd19zkhwd9ht9rpJ9bKx69uEEZ9uRPxBF6fF9Fmca9uD7Yvvb7zH29BTvNpKkIg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.2863405,48.8662939,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA_1257 : 1 Place de l'Alma</name>
+        <description>&lt;img src="https://lh5.googleusercontent.com/Wa01nSprrp73DWwqBsggObpnTCi2uDsZteq5TGkQfOyDImARjPd1ded4CXqYqaJ5Zjs8TW14YbTGEwlbQxNBThnFHek_f2Qjpsn2tJPcCysRDrd9nQcD5lEo5xr9BKehpvIXqLE" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;img src="https://lh5.googleusercontent.com/Cg6B-LyM7dVs6MpwSG93NPRkF54t-Mo-0kp6Ov0r7Op4AG8txdqeXz8N2cnGKkB_bLV8wLPbm1OLEV1x-IE8Y9oxmn5s2FGmcnlSSe-s95Q4qOn0Br2yZPysZOIF_FZGAFQZHaQ" height="200" width="auto" /&gt;</description>
+        <styleUrl>#icon-961-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/Wa01nSprrp73DWwqBsggObpnTCi2uDsZteq5TGkQfOyDImARjPd1ded4CXqYqaJ5Zjs8TW14YbTGEwlbQxNBThnFHek_f2Qjpsn2tJPcCysRDrd9nQcD5lEo5xr9BKehpvIXqLE https://lh5.googleusercontent.com/Cg6B-LyM7dVs6MpwSG93NPRkF54t-Mo-0kp6Ov0r7Op4AG8txdqeXz8N2cnGKkB_bLV8wLPbm1OLEV1x-IE8Y9oxmn5s2FGmcnlSSe-s95Q4qOn0Br2yZPysZOIF_FZGAFQZHaQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3007694,48.8645983,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA_1274 : 10 square Desnouettes</name>
+        <description>&lt;img src="https://lh6.googleusercontent.com/JV6507EbaBQCrfBYDazbPBAM_sihQV2pkQRzh-g30O9F002nHttOPM_v1OV5zcI2a0d_tRLxm9VGZRc8bxzI7D4OMmGsMEr0x9LcXNMVt43rIJo-QQmG7WdJ5vsJ577ejMWNBDU" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;img src="https://lh4.googleusercontent.com/RRr-vYCBKfoYGFKmpjRBs3dOjOF6WfpXwWiFRfFd7O90ei6QVm9u8UtsNAXGjjqhplhjWvvCkLJbs4wocDWoU9Ma5xh8pxBLZW9z2mqLuUPAGYefsXDA7gGqNpLKM9zxsCiz4A" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;&lt;img src="https://lh3.googleusercontent.com/W77aANjgLgbWb8BzijZWe23tHgPI3gvGyC_YovIiVMCRT8Jpr4YezZU7IYpVgtx0z4IjEowqd1nP-E42w5H47Exh4dY27h2Z8ypqWGfn1ZUDObqrqHcr39iQOz--uu-WFqf6" height="200" width="auto" /&gt;</description>
+        <styleUrl>#icon-961-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/JV6507EbaBQCrfBYDazbPBAM_sihQV2pkQRzh-g30O9F002nHttOPM_v1OV5zcI2a0d_tRLxm9VGZRc8bxzI7D4OMmGsMEr0x9LcXNMVt43rIJo-QQmG7WdJ5vsJ577ejMWNBDU https://lh4.googleusercontent.com/RRr-vYCBKfoYGFKmpjRBs3dOjOF6WfpXwWiFRfFd7O90ei6QVm9u8UtsNAXGjjqhplhjWvvCkLJbs4wocDWoU9Ma5xh8pxBLZW9z2mqLuUPAGYefsXDA7gGqNpLKM9zxsCiz4A https://lh3.googleusercontent.com/W77aANjgLgbWb8BzijZWe23tHgPI3gvGyC_YovIiVMCRT8Jpr4YezZU7IYpVgtx0z4IjEowqd1nP-E42w5H47Exh4dY27h2Z8ypqWGfn1ZUDObqrqHcr39iQOz--uu-WFqf6</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.2839546,48.8348529,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA_1289 : 1 Place de l'Alma</name>
+        <styleUrl>#icon-959-3F5BA9-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.3007855,48.8644307,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA_1290 : Metro Alma Marceau, 1 place Alma Marceau
+</name>
+        <description>&lt;img src="https://lh5.googleusercontent.com/DWzq6Zzio97T9N_-YWv9Gs4rlKBwNu-QxE0YjH8WTg4UGM3mqyFpfkFEGBTDmeiP6W5z1AxtddMH00EkPfJBhWbZCQwXrfQ1T-CvXV-xfFjMWKfzY5iFlcCupuWkcD2Zq9Y9" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;</description>
+        <styleUrl>#icon-961-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/DWzq6Zzio97T9N_-YWv9Gs4rlKBwNu-QxE0YjH8WTg4UGM3mqyFpfkFEGBTDmeiP6W5z1AxtddMH00EkPfJBhWbZCQwXrfQ1T-CvXV-xfFjMWKfzY5iFlcCupuWkcD2Zq9Y9</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3007882,48.8644889,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA_1309 : Quais Rive Droite et Pt Mirabeau
+</name>
+        <description>&lt;img src="https://lh6.googleusercontent.com/o_T8BjaDnQZLLZAF3O2cJqmBIG1bDVEXZA5scCmwAF6SUgnVpQGkiEqDEIaCtjxNrO2-TUDjHG5vGviiNQ37slUQzcqrXc5neJM92DMTHXEDboXzKJBIU7YyxVUIw6aq4t-gvg" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;48.846940, 2.274565&lt;br&gt;&lt;br&gt;&lt;img src="https://lh5.googleusercontent.com/bgJuZ8U5-WwM6K5s32SCyJ6Sdj33c6Qa0VzhIeqjMyubVCRafeO9yaBLNfHN5kQfM4a3N4h0R4mvInSSlwRBCWpy-U0yvv1qWe8xz7SN8MBjBbQ5x9aIgDr8NGaq_mvIrILXOvs" height="200" width="auto" /&gt;</description>
+        <styleUrl>#icon-961-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/o_T8BjaDnQZLLZAF3O2cJqmBIG1bDVEXZA5scCmwAF6SUgnVpQGkiEqDEIaCtjxNrO2-TUDjHG5vGviiNQ37slUQzcqrXc5neJM92DMTHXEDboXzKJBIU7YyxVUIw6aq4t-gvg https://lh5.googleusercontent.com/bgJuZ8U5-WwM6K5s32SCyJ6Sdj33c6Qa0VzhIeqjMyubVCRafeO9yaBLNfHN5kQfM4a3N4h0R4mvInSSlwRBCWpy-U0yvv1qWe8xz7SN8MBjBbQ5x9aIgDr8NGaq_mvIrILXOvs</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.2745964,48.847037,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA_1311 : 19 Rue Jean Nicot</name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/CXZVMEku9ytHNZmCWrX9Ih6azd-385kBSnXd3p9haRpzEAllr-vTREXK545vTAutBc6B8NYFHTCvI5A5RY9mHgisA0_YkzOypfu-uAgSNi9EuRxs8rq9FAtnazSRZonYJUib" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;img src="https://lh6.googleusercontent.com/hsgk-48PDIZeYbKOwTm_XP144ZkFkPgZu3-CK1R75vA36_qYn_4UEaas_l4MBTl-DeMI6RyoLsMJoqGjwhgONoBagO03Fh5wi44YGt92ZHID1VbBd1Dl7Tsfsui5eRN_bo2Q" height="200" width="auto" /&gt;</description>
+        <styleUrl>#icon-961-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/CXZVMEku9ytHNZmCWrX9Ih6azd-385kBSnXd3p9haRpzEAllr-vTREXK545vTAutBc6B8NYFHTCvI5A5RY9mHgisA0_YkzOypfu-uAgSNi9EuRxs8rq9FAtnazSRZonYJUib https://lh6.googleusercontent.com/hsgk-48PDIZeYbKOwTm_XP144ZkFkPgZu3-CK1R75vA36_qYn_4UEaas_l4MBTl-DeMI6RyoLsMJoqGjwhgONoBagO03Fh5wi44YGt92ZHID1VbBd1Dl7Tsfsui5eRN_bo2Q</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3077726,48.8600211,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA_1312 : 135 Rue de Grenelle &amp; 20 Rue de la Comète</name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/pn3asQgQrTc8hkwK_ba6N8Vyj0Pw4fkbWP3fDz3k0AzFxrxWWA94Yx-aeYE5AjkrCPGWj-vOMx6lK1dh2yEVaRdoTpkl3dR4ptZdDfKE-ZGxbKbYX1ye69q3Ol6M2XPLHYAQyg" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;img src="https://lh4.googleusercontent.com/Wb4TsnqMLdCmm2ipuzDi_MzqJEEIBgb34JDIdnLLE3cCUHtJ9Rdr7-DT111eG90guJ3LxOlaKRRD2F7OSIu9XzkAQPC4hmma2Z3wUu0ze9w7sxe-y4SY9VakQJS8SxMarvOhoQ" height="200" width="auto" /&gt;</description>
+        <styleUrl>#icon-961-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/pn3asQgQrTc8hkwK_ba6N8Vyj0Pw4fkbWP3fDz3k0AzFxrxWWA94Yx-aeYE5AjkrCPGWj-vOMx6lK1dh2yEVaRdoTpkl3dR4ptZdDfKE-ZGxbKbYX1ye69q3Ol6M2XPLHYAQyg https://lh4.googleusercontent.com/Wb4TsnqMLdCmm2ipuzDi_MzqJEEIBgb34JDIdnLLE3cCUHtJ9Rdr7-DT111eG90guJ3LxOlaKRRD2F7OSIu9XzkAQPC4hmma2Z3wUu0ze9w7sxe-y4SY9VakQJS8SxMarvOhoQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3092854,48.8581082,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA_1342 : 2 plce Joffre
+</name>
+        <description>&lt;img src="https://lh6.googleusercontent.com/kcKwL4hVsBke7ubPI1--mmm-PZY-3Oyom3XDftPI4THI68qBRelgl_25FGYzI22g99tfvkpnLVW6ouIsBHa_FUqasS7puMVf4ROcXXJy-ZqwXctFv7UqqNr-RpML4W6SRo_hZg" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;img src="https://lh5.googleusercontent.com/yuYb5i1i5SrOiu--7R5q8PbE95PKIQUcgjiJR_dPeO-50_L3B4C7SgVCGIXhGSVxvlqmwgWoAwbXRZ7fWeG5WYlPEEOkWvWlhG77bZx_BYBTBvqZY4L013nJjt1PH5vGy3oKg_c" height="200" width="auto" /&gt;</description>
+        <styleUrl>#icon-961-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/kcKwL4hVsBke7ubPI1--mmm-PZY-3Oyom3XDftPI4THI68qBRelgl_25FGYzI22g99tfvkpnLVW6ouIsBHa_FUqasS7puMVf4ROcXXJy-ZqwXctFv7UqqNr-RpML4W6SRo_hZg https://lh5.googleusercontent.com/yuYb5i1i5SrOiu--7R5q8PbE95PKIQUcgjiJR_dPeO-50_L3B4C7SgVCGIXhGSVxvlqmwgWoAwbXRZ7fWeG5WYlPEEOkWvWlhG77bZx_BYBTBvqZY4L013nJjt1PH5vGy3oKg_c</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3037869,48.8539795,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA_1343 : 2 rue Chevert
+</name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/2Rf1HAsn5vtv1DDF9FMVBdIhat-j5Vi-gWIucqJOzHuTkFHyKHndO6L8AnEIgcQhjT3QemTTvo_DoCHvgqBiGymbcBioA4RB4h5TtvPDG05LV01gxggDWeC5rwwH3OD7Ef1Nv00" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;img src="https://lh6.googleusercontent.com/CWcL1GldJDtxmyqPPvsGVWsJNcEE6uX8U9PD3hq-3k6-oN2qfVJ1fLGEZQkXJkP5YxES2wAYkueQb93Ifpo-xAORd8TDPB9UNWjWFpRf5p_LV2k4svRX2rARWKdOzAfzc_Xs9g" height="200" width="auto" /&gt;</description>
+        <styleUrl>#icon-961-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/2Rf1HAsn5vtv1DDF9FMVBdIhat-j5Vi-gWIucqJOzHuTkFHyKHndO6L8AnEIgcQhjT3QemTTvo_DoCHvgqBiGymbcBioA4RB4h5TtvPDG05LV01gxggDWeC5rwwH3OD7Ef1Nv00 https://lh6.googleusercontent.com/CWcL1GldJDtxmyqPPvsGVWsJNcEE6uX8U9PD3hq-3k6-oN2qfVJ1fLGEZQkXJkP5YxES2wAYkueQb93Ifpo-xAORd8TDPB9UNWjWFpRf5p_LV2k4svRX2rARWKdOzAfzc_Xs9g</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3096287,48.8564096,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-1007 : Drouot 11</name>
+        <description>&lt;img src="https://lh5.googleusercontent.com/proxy/uR7HarvXkMZA-e7Df2BIBLC5jslkEGknufFB3zfeTO6oa6CJkN_lsqRtAtwavGzpFMiVfNAn_sU39X3Wz4YSUNGqlzTrPRsNxnZjYHnax3sUmw" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;https://www.flickr.com/photos/archi_philou/6846341722/in/set-72157634719295105</description>
+        <styleUrl>#icon-961-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/uR7HarvXkMZA-e7Df2BIBLC5jslkEGknufFB3zfeTO6oa6CJkN_lsqRtAtwavGzpFMiVfNAn_sU39X3Wz4YSUNGqlzTrPRsNxnZjYHnax3sUmw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.340447,48.873482,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-1038 : 6 rue Pajou</name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/proxy/cq5dDwO4ZEYRHY6f3XW9CTYvtA_JcOkd9_8OVdIBwvPHTEZ1HvAPpjkOx3-Yrc4vWKYPIkXSgcdXYoH3C9XEYr8pN4XGp5ewNEVItbwCz4eiYe8" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://flickrhivemind.net/Tags/pa1038/Interesting</description>
+        <styleUrl>#icon-961-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/cq5dDwO4ZEYRHY6f3XW9CTYvtA_JcOkd9_8OVdIBwvPHTEZ1HvAPpjkOx3-Yrc4vWKYPIkXSgcdXYoH3C9XEYr8pN4XGp5ewNEVItbwCz4eiYe8</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.2728691,48.8567021,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-1124 : Rossini et Chauchat</name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/proxy/vkVGyvw8jvxOFQJerzrzDpQj5rgX-18Eu7O-fvh_OLh4RW08CXoR9QoMLuZ4ddqKxJaz0W0ydNBTQPcZEFWiSAiMvkPzxSUPsXe3JOU4v8mRew8" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://flickrhivemind.net/Tags/pa1124/Interesting</description>
+        <styleUrl>#icon-961-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/vkVGyvw8jvxOFQJerzrzDpQj5rgX-18Eu7O-fvh_OLh4RW08CXoR9QoMLuZ4ddqKxJaz0W0ydNBTQPcZEFWiSAiMvkPzxSUPsXe3JOU4v8mRew8</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3394227,48.8731517,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-1141: 8 Rue Mario Nikis
+</name>
+        <description>&lt;img src="https://lh6.googleusercontent.com/proxy/v3AM1qDRyLHoNoqdD_n6Fm5yQjjIFU1tiDeZsy0SHU8l3BNhFfGsVMYQUoyE2mBmrwC1qI-uPOKLciTZNI_JBddPck8_u-Xv625plA2m_iQObYI" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://flickrhivemind.net/Tags/pa1141/Interesting</description>
+        <styleUrl>#icon-961-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/v3AM1qDRyLHoNoqdD_n6Fm5yQjjIFU1tiDeZsy0SHU8l3BNhFfGsVMYQUoyE2mBmrwC1qI-uPOKLciTZNI_JBddPck8_u-Xv625plA2m_iQObYI</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3042858,48.8483167,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-233 : 2, rue des Cévennes </name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/proxy/dKRf2-V-Xf4VUF0fEKm9SNmm2Zp_kYp0dTwXB5Ta2Ae9BCAXsh9HO7_tpun7Ai0bUpY9na4VfubbhomO_CMZ43t98FjdsGUjIk7vnTLRNYOS4A" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://flickrhivemind.net/Tags/pa233/Interesting et http://monsieurchat.free.fr/Public/Resultat.php?affiche=790</description>
+        <styleUrl>#icon-961-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/dKRf2-V-Xf4VUF0fEKm9SNmm2Zp_kYp0dTwXB5Ta2Ae9BCAXsh9HO7_tpun7Ai0bUpY9na4VfubbhomO_CMZ43t98FjdsGUjIk7vnTLRNYOS4A</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.2762594,48.8444414,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-247 : Firmin Gillot et Vaugirard </name>
+        <description>&lt;img src="https://lh6.googleusercontent.com/proxy/3gAoSp0hFtrbtV6L_ttXulY_UFWNM2INkRjbePa8LH4Aa1UiOxVwbk_tItp6sSSG5r48go648bQ57ur44NfvhSyI4Bbd6AK6EtXCc7NQWd_6k7U" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://flickrhivemind.net/Tags/pa247/Interesting et http://monsieurchat.free.fr/Public/Resultat.php?affiche=771</description>
+        <styleUrl>#icon-961-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/3gAoSp0hFtrbtV6L_ttXulY_UFWNM2INkRjbePa8LH4Aa1UiOxVwbk_tItp6sSSG5r48go648bQ57ur44NfvhSyI4Bbd6AK6EtXCc7NQWd_6k7U</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.2895283,48.8333858,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-357 : 23 Boulevard Lefebvre 
+</name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/proxy/6M7X0Jj_G4fpy9cGeNDYNMmD_Hn4Z97GKtCA4VR8wMRo8YyBSMcl41zlmvmZOl2mMPtb7QpwvyF2OfQJhCF2LkmNYqwQ9f4vPP-DoUG_8w" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://flickrhivemind.net/Tags/pa357/Interesting</description>
+        <styleUrl>#icon-961-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/6M7X0Jj_G4fpy9cGeNDYNMmD_Hn4Z97GKtCA4VR8wMRo8YyBSMcl41zlmvmZOl2mMPtb7QpwvyF2OfQJhCF2LkmNYqwQ9f4vPP-DoUG_8w</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.2904027,48.8320068,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-593 : 4 place Balard </name>
+        <description>&lt;img src="https://lh4.googleusercontent.com/proxy/qDIT4RdzqmvQaM5yj-CthIqF7ivnNQoEcmWGzTm2QPTHz0p45wC91UXZqENdFX77f9_rw2wsbYv7yfVYeX1_oBQJz_uOAiYvAGX-uy0bCg" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://flickrhivemind.net/Tags/pa593/Interesting et http://monsieurchat.free.fr/Public/Resultat.php?affiche=1043</description>
+        <styleUrl>#icon-961-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/qDIT4RdzqmvQaM5yj-CthIqF7ivnNQoEcmWGzTm2QPTHz0p45wC91UXZqENdFX77f9_rw2wsbYv7yfVYeX1_oBQJz_uOAiYvAGX-uy0bCg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.2782952,48.8365107,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-594 : place Balard. Au coin de la rue Leblanc. 
+</name>
+        <description>&lt;img src="https://lh5.googleusercontent.com/proxy/lT-Dag9V1Xnm-vsLzZHQiXhDFG1JgKZohQFyCiF4VxA9elb5s0hA2z7X6Z_GOXOyr_aj0soDDyBZ6htqKQktkVF7OpX2qzNni6K8CZRnRA" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://flickrhivemind.net/Tags/pa594/Interesting et http://monsieurchat.free.fr/Public/Resultat.php?affiche=789</description>
+        <styleUrl>#icon-961-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/lT-Dag9V1Xnm-vsLzZHQiXhDFG1JgKZohQFyCiF4VxA9elb5s0hA2z7X6Z_GOXOyr_aj0soDDyBZ6htqKQktkVF7OpX2qzNni6K8CZRnRA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.2787189,48.8366608,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-595 : 183 rue de Lourmel 
+</name>
+        <description>&lt;img src="https://lh6.googleusercontent.com/proxy/mY71TfcW7kZ31fHX-YvEyfJWIk4fouMvupjzSN_y5ade_MhEbAEzkle5XNaEVNdjI_rMog0dZTVY29OfqaDIWWoyQ2_63mZfjGoYwRUknEYuIg" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://flickrhivemind.net/Tags/pa595/Interesting et http://monsieurchat.free.fr/Public/Resultat.php?affiche=1411</description>
+        <styleUrl>#icon-961-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/mY71TfcW7kZ31fHX-YvEyfJWIk4fouMvupjzSN_y5ade_MhEbAEzkle5XNaEVNdjI_rMog0dZTVY29OfqaDIWWoyQ2_63mZfjGoYwRUknEYuIg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.2818732,48.8379637,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-597 : 111 Boulevard de Grenelle
+
+
+</name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/proxy/fKzOEt80KUL8g7iRUJBGy2og45pO_G81YYWyVmVujlTWN5UbBmHyqUIZeS1RlLqdDxpBgvZEFPu2eoIo6vCWOmHJOGYaMwX_aroRDRwTT3zEGBQ" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;Station de Métro Motte Picquet Grenelle http://flickrhivemind.net/Tags/pa597/Interesting et http://monsieurchat.free.fr/Public/Resultat.php?affiche=813</description>
+        <styleUrl>#icon-961-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/fKzOEt80KUL8g7iRUJBGy2og45pO_G81YYWyVmVujlTWN5UbBmHyqUIZeS1RlLqdDxpBgvZEFPu2eoIo6vCWOmHJOGYaMwX_aroRDRwTT3zEGBQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.2977982,48.849193,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-626 : 200, rue de la Convention</name>
+        <description>&lt;img src="https://lh5.googleusercontent.com/proxy/2S-CoIEVOfivP673nAVfPgW3LkwYvuQgZgJF2oSTT2L7UeXbzVxz9OiqOL8_utHnTFdmamDplytNkU4RHgsD2LQ6nSpN3Ski0VtMw1LjbQ" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://flickrhivemind.net/Tags/pa626/Interesting et http://monsieurchat.free.fr/Public/Resultat.php?affiche=814</description>
+        <styleUrl>#icon-961-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/2S-CoIEVOfivP673nAVfPgW3LkwYvuQgZgJF2oSTT2L7UeXbzVxz9OiqOL8_utHnTFdmamDplytNkU4RHgsD2LQ6nSpN3Ski0VtMw1LjbQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.2965637,48.8370999,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-666 : Quai de Grenelle et rue du Dr Finlay
+
+</name>
+        <description>&lt;img src="https://lh4.googleusercontent.com/proxy/mhPvoTOu0JHIdm9lB3ooaJVaGjT-xsAKsjzgyor1L7ivQ5xU2cwVfoKx6aqezMYK0MayOaWSF_b8qSnsC3YlWadaBasA8r1eIvaymiHiOQ" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://flickrhivemind.net/Tags/pa666/Interesting et http://monsieurchat.free.fr/Public/Resultat.php?affiche=666</description>
+        <styleUrl>#icon-961-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/mhPvoTOu0JHIdm9lB3ooaJVaGjT-xsAKsjzgyor1L7ivQ5xU2cwVfoKx6aqezMYK0MayOaWSF_b8qSnsC3YlWadaBasA8r1eIvaymiHiOQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.286433,48.8529126,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-935 : 4 Rue Cambronne
+</name>
+        <description>&lt;img src="https://lh4.googleusercontent.com/proxy/PymeEWDPhbgdx0vsVjgyDaGoUsOAufivntRsYQRQP0NL5w3-w58amd6GxyRJNJA_h6JItjiL9BapD3lbavGiVvrctlrP0mF6xRUMAL9kDoNrIg" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://flickrhivemind.net/Tags/pa935/Interesting et http://monsieurchat.free.fr/Public/Resultat.php?affiche=2348</description>
+        <styleUrl>#icon-961-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/PymeEWDPhbgdx0vsVjgyDaGoUsOAufivntRsYQRQP0NL5w3-w58amd6GxyRJNJA_h6JItjiL9BapD3lbavGiVvrctlrP0mF6xRUMAL9kDoNrIg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3015513,48.8474924,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-950 : 70 Boulevard de Grenelle 
+</name>
+        <description>&lt;img src="https://lh6.googleusercontent.com/proxy/JGHpT_Y0NmCzO--FLZDVmQKY3WvSC7CEjYsEaUQwP16L4SBlGO8VusS5EUFJk32O9tYfpsoh8X8K_9vhvaQGga9ox8p0nBn_bzdnfYPr-SvrXg" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://flickrhivemind.net/Tags/pa950/Interesting et http://monsieurchat.free.fr/Public/Resultat.php?affiche=2351</description>
+        <styleUrl>#icon-961-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/JGHpT_Y0NmCzO--FLZDVmQKY3WvSC7CEjYsEaUQwP16L4SBlGO8VusS5EUFJk32O9tYfpsoh8X8K_9vhvaQGga9ox8p0nBn_bzdnfYPr-SvrXg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.2932807,48.8504638,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-951 : 75 Boulevard de Grenelle
+</name>
+        <description>&lt;img src="https://lh5.googleusercontent.com/proxy/K9cjwMI60pYwNrokf8b23kkjE34SqgN0xceUvf4VSl7wXE9FcgXfcNZygHFOH5SVFwxBUMZLWCFpcEcPPUEy8bcvnEzgeILrKZ0FHjYg2oK_Kw" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://flickrhivemind.net/Tags/pa951/Interesting et  http://monsieurchat.free.fr/Public/Resultat.php?affiche=2351</description>
+        <styleUrl>#icon-961-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/K9cjwMI60pYwNrokf8b23kkjE34SqgN0xceUvf4VSl7wXE9FcgXfcNZygHFOH5SVFwxBUMZLWCFpcEcPPUEy8bcvnEzgeILrKZ0FHjYg2oK_Kw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.2940505,48.8503694,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-966 : Pont de Bir-Hakeim
+</name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/proxy/AYoeRXGUQuaIMsdxVfXT0UUzJ-R4FKg6EgWT7Md6wykPIQnZ1j-zWKD08Ck3zO5cJQs9wGkdj8Y1QRHlHIdMtvUeEVLgwOofyCweUsjViBIeFQ" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://flickrhivemind.net/Tags/pa966/Interesting et http://monsieurchat.free.fr/Public/Resultat.php?affiche=2433</description>
+        <styleUrl>#icon-961-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/AYoeRXGUQuaIMsdxVfXT0UUzJ-R4FKg6EgWT7Md6wykPIQnZ1j-zWKD08Ck3zO5cJQs9wGkdj8Y1QRHlHIdMtvUeEVLgwOofyCweUsjViBIeFQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.2877647,48.8555625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-967 : Quai Branly et bd de Grenelle 
+</name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/proxy/LekEptCq7SFEwt2G_zbJdaiSSn4celeb19zqFUMjoC38VECLcNc-aCeHoTlh7p8E_KNTJBzqFm02eJYAhJQkNkv_Dr4AzeuuYar0QkCeBsjzWA" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://flickrhivemind.net/Tags/pa967/Interesting et http://monsieurchat.free.fr/Public/Resultat.php?affiche=2434</description>
+        <styleUrl>#icon-961-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/LekEptCq7SFEwt2G_zbJdaiSSn4celeb19zqFUMjoC38VECLcNc-aCeHoTlh7p8E_KNTJBzqFm02eJYAhJQkNkv_Dr4AzeuuYar0QkCeBsjzWA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.2891581,48.8546369,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-258 : rue Reynouard et de l'avenue de Lamballe
+</name>
+        <description>&lt;img src="https://lh5.googleusercontent.com/proxy/Tv8Kf3EBRR48ARxBhpJLxFklqsWqqYlC5YPEYVIAW38NtgGiXe5_U9rmKLSgXESDsr73GlNQmHeSXmmINYgoqn_DufUyyvXJOI02lnmj" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=467 et http://flickrhivemind.net/Tags/pa258/Interesting</description>
+        <styleUrl>#icon-961-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/Tv8Kf3EBRR48ARxBhpJLxFklqsWqqYlC5YPEYVIAW38NtgGiXe5_U9rmKLSgXESDsr73GlNQmHeSXmmINYgoqn_DufUyyvXJOI02lnmj</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.2787538,48.854471,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-478 : Sur le viaduc du RER, station Kennedy - Radio France
+</name>
+        <description>&lt;img src="https://lh6.googleusercontent.com/proxy/Vt1U-hS20LgndT-oxQE_RLn-Im_z2MO7_QJDCBOM45HnnRE4_FwDSaGUzgehAqu4uSqnXeQsL4wlgZy3IOXUzquR3N5-qt2bTM7_mkPH3A" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://flickrhivemind.net/Tags/pa478/Interesting et http://monsieurchat.free.fr/Public/Resultat.php?affiche=468</description>
+        <styleUrl>#icon-961-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/Vt1U-hS20LgndT-oxQE_RLn-Im_z2MO7_QJDCBOM45HnnRE4_FwDSaGUzgehAqu4uSqnXeQsL4wlgZy3IOXUzquR3N5-qt2bTM7_mkPH3A</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.281428,48.8526197,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-424 : Rue de la Manutention
+</name>
+        <description>&lt;img src="https://lh4.googleusercontent.com/proxy/rT9YGZ9e6i7u_QG2VcBXcV4yi-Zlndb4UHdWdpKo04vxnEnNbUcvK1qnsAYx6vO-cduZMpfsidMqj0XWYshcNDpzCrtRqUgyFfIpt4-rpkvGrofBH5hznY5hQQs" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;</description>
+        <styleUrl>#icon-961-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/rT9YGZ9e6i7u_QG2VcBXcV4yi-Zlndb4UHdWdpKo04vxnEnNbUcvK1qnsAYx6vO-cduZMpfsidMqj0XWYshcNDpzCrtRqUgyFfIpt4-rpkvGrofBH5hznY5hQQs</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.2955471,48.8646795,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-650 : Rue Désaugiers et rue d'Auteuil. 
+
+</name>
+        <description>&lt;img src="https://lh3.googleusercontent.com/proxy/b9ZXAP9YO4Ki0sBrJeQNIpkrd2oA1KlWPHYqNMErd_sQi4HkpRH-XMEVvJBr47xdxzqVeJf3JmV7NA6NU4XeSafp3BwkaCwEFHLLDk_Xcg" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://flickrhivemind.net/Tags/pa650/Interesting et http://monsieurchat.free.fr/Public/Resultat.php?affiche=787</description>
+        <styleUrl>#icon-961-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/b9ZXAP9YO4Ki0sBrJeQNIpkrd2oA1KlWPHYqNMErd_sQi4HkpRH-XMEVvJBr47xdxzqVeJf3JmV7NA6NU4XeSafp3BwkaCwEFHLLDk_Xcg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.2680652,48.8475048,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-652 : 20 Rue des Sablons
+</name>
+        <description>&lt;img src="https://lh5.googleusercontent.com/proxy/K4UUc7XTWnddIj8u6HKQZ7t1Os-9lgk6kTf17UIGW6NxXIguKZreNjiS2rHR6wFwWD0weU2-pYVnAp3Ek0GnxEzJaa_wjFM9kYzOa3-NKg" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://flickrhivemind.net/Tags/pa652/Interesting  et http://monsieurchat.free.fr/Public/Resultat.php?affiche=930</description>
+        <styleUrl>#icon-961-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/K4UUc7XTWnddIj8u6HKQZ7t1Os-9lgk6kTf17UIGW6NxXIguKZreNjiS2rHR6wFwWD0weU2-pYVnAp3Ek0GnxEzJaa_wjFM9kYzOa3-NKg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.2828281,48.8650738,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-692 : 28 Rue du Dr Blanche</name>
+        <description>&lt;img src="https://lh6.googleusercontent.com/proxy/dC046YteEp1cU4PkL_1XwJF15t389wGnRCyxg8QCF2FJ5g_A79B-Kr-geULgDQEVAbpioU7V3P4JSQPadPPiS4CD4MoI3GVryEyq2vJXv4wD" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://flickrhivemind.net/Tags/pa692/Interesting et http://monsieurchat.free.fr/Public/Resultat.php?affiche=1113</description>
+        <styleUrl>#icon-961-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/dC046YteEp1cU4PkL_1XwJF15t389wGnRCyxg8QCF2FJ5g_A79B-Kr-geULgDQEVAbpioU7V3P4JSQPadPPiS4CD4MoI3GVryEyq2vJXv4wD</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.2654514,48.8544631,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-695 : 1 rue Jasmin
+</name>
+        <description>&lt;img src="https://lh4.googleusercontent.com/proxy/PqAu2hMsqw0M-p-OxiuoEMqqLpqfqYmLetNszRHELugvmrpm4--I4BhopFDfs8IFdmKtZbt0KjJxB1ztP1E6IzWwnRcm7vCvnKOejSFjs_U" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://flickrhivemind.net/Tags/pa695/Interesting et http://monsieurchat.free.fr/Public/Resultat.php?affiche=918</description>
+        <styleUrl>#icon-961-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/PqAu2hMsqw0M-p-OxiuoEMqqLpqfqYmLetNszRHELugvmrpm4--I4BhopFDfs8IFdmKtZbt0KjJxB1ztP1E6IzWwnRcm7vCvnKOejSFjs_U</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.2679499,48.85249,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-761 : 3 Quai Louis Blériot
+</name>
+        <description>&lt;img src="https://lh4.googleusercontent.com/proxy/KpiUdM4fCK_C-euZDtAyB80OYShoaudbkHKkyrllccJW3p-IpWjpzzD_-t28sLw1GPM_DdOCALQYpVHqklocSZrMC6aBiSfbf0a8Jc6yN9XguA" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://flickrhivemind.net/Tags/pa761/Interesting et http://monsieurchat.free.fr/Public/Resultat.php?affiche=1380</description>
+        <styleUrl>#icon-961-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/KpiUdM4fCK_C-euZDtAyB80OYShoaudbkHKkyrllccJW3p-IpWjpzzD_-t28sLw1GPM_DdOCALQYpVHqklocSZrMC6aBiSfbf0a8Jc6yN9XguA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.2783756,48.8511301,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-456 : Place d'Iéna. Intersection avec l'avenue du Président Wilson
+</name>
+        <description>&lt;img src="https://lh6.googleusercontent.com/proxy/5sMNKMaDHJgVwcWbZfaMUp5mkrH2sFaUJEI7fESrMdcWVlwUGjggiNeSxSJfsnbJDT_vzlgibvHsFyK6-tNX1d8bLlt2hG0qWRY9Gzyd8g" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://flickrhivemind.net/Tags/pa456/Interesting et http://monsieurchat.free.fr/Public/Resultat.php?affiche=91</description>
+        <styleUrl>#icon-961-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/5sMNKMaDHJgVwcWbZfaMUp5mkrH2sFaUJEI7fESrMdcWVlwUGjggiNeSxSJfsnbJDT_vzlgibvHsFyK6-tNX1d8bLlt2hG0qWRY9Gzyd8g</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.2942436,48.8646724,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PA-381 : 12 Place Joffre
+</name>
+        <description>&lt;img src="https://lh6.googleusercontent.com/proxy/6aDfsS8YJZYO1B9eB00jPpXHi0vtRN9XESVmGH7Dz227faJaIrZ5hbsCU-pXT6w9ct2cQrQod3l4bT6YDKCDh3MZpVmXJo094J9dxmVtrg" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;http://monsieurchat.free.fr/Public/Resultat.php?affiche=438 et http://flickrhivemind.net/Tags/pa381/Interesting</description>
+        <styleUrl>#icon-961-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/6aDfsS8YJZYO1B9eB00jPpXHi0vtRN9XESVmGH7Dz227faJaIrZ5hbsCU-pXT6w9ct2cQrQod3l4bT6YDKCDh3MZpVmXJo094J9dxmVtrg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.3012495,48.8522561,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      </Folder></Document>
+</kml>
